@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 赛事百晓生 · 还能报 &amp; 即将开启（常驻分享版）</title>
+<style>
+*{box-sizing:border-box;}
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;margin:0;background:#eef1f7;color:#1a1a2e;}
+.wrap{max-width:780px;margin:0 auto;padding:0 16px 48px;}
+header{background:linear-gradient(135deg,#1A1A2E 0%,#28365e 100%);color:#fff;padding:26px 28px 22px;border-radius:0 0 18px 18px;}
+header .row{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+header h1{margin:0;font-size:22px;letter-spacing:.5px;}
+header .badge{display:inline-block;background:#00D4FF;color:#001a2e;font-weight:bold;font-size:11px;border-radius:20px;padding:3px 11px;margin-top:8px;}
+header .ver{text-align:right;font-size:11.5px;color:#9db3ff;line-height:1.6;}
+header .sub{color:#a9c7ff;font-size:12.5px;margin-top:10px;line-height:1.7;}
+.tip{background:#fff;margin:18px 0;padding:13px 16px;border-radius:12px;border-left:4px solid #00D4FF;font-size:12.5px;line-height:1.8;box-shadow:0 2px 10px rgba(20,40,80,.06);}
+.tip b{color:#1A1A2E;}
+.sec-title{font-size:16px;margin:26px 0 12px;padding-bottom:7px;border-bottom:2px solid #00D4FF;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;}
+.sec-title .cnt{font-size:12px;color:#888;font-weight:normal;margin-left:8px;}
+.card{display:flex;gap:14px;background:#fff;border-radius:14px;padding:16px;margin-bottom:14px;box-shadow:0 2px 12px rgba(20,40,80,.07);transition:transform .15s ease, box-shadow .15s ease;}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(20,40,80,.12);}
+.idx{flex:0 0 38px;height:38px;width:38px;border-radius:50%;background:linear-gradient(135deg,#1A1A2E,#28365e);color:#fff;font-weight:bold;font-size:16px;display:flex;align-items:center;justify-content:center;}
+.body{flex:1;min-width:0;}
+.ttl{font-size:16px;color:#1a1a2e;line-height:1.4;}
+.meta{margin:8px 0 6px;display:flex;align-items:center;flex-wrap:wrap;gap:8px;}
+.pill{display:inline-block;font-weight:bold;font-size:12px;border-radius:20px;padding:3px 10px;}
+.el-pill{background:#eef7ee;color:#2a7a2a;border:1px solid #bfe3bf;}
+.theme-pill{background:#fff4e0;color:#8a5a00;border:1px solid #f0d9a8;}
+.filters{background:#fff;border-radius:12px;padding:14px 16px;margin:16px 0;box-shadow:0 2px 10px rgba(20,40,80,.06);}
+.fgroup{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:9px;}
+.fgroup:last-of-type{margin-bottom:0;}
+.flabel{font-size:12.5px;font-weight:bold;color:#1a1a2e;min-width:32px;margin-right:4px;}
+.fbtn{border:1px solid #d5dbe8;background:#f7f9fc;color:#33415e;font-size:12px;font-weight:bold;border-radius:16px;padding:4px 12px;cursor:pointer;transition:all .12s ease;font-family:inherit;}
+.fbtn:hover{border-color:#00a0e0;color:#0066cc;}
+.fbtn.active{background:linear-gradient(135deg,#0066cc,#00a0e0);color:#fff;border-color:transparent;}
+.fcount{font-size:12px;color:#666;margin-top:10px;padding-top:10px;border-top:1px dashed #e3e7ef;}
+.fcount b{color:#0066cc;}
+.tags{color:#777;font-size:12px;}
+.note{color:#555;font-size:12.5px;line-height:1.6;margin:4px 0 10px;}
+.foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;border-top:1px dashed #e3e7ef;padding-top:9px;}
+.dl{font-size:12.5px;color:#444;}
+.dl b{color:#9C0006;font-size:13px;}
+.btn{display:inline-block;background:linear-gradient(135deg,#0066cc,#00a0e0);color:#fff;font-weight:bold;font-size:12.5px;text-decoration:none;border-radius:8px;padding:7px 14px;white-space:nowrap;}
+.btn:hover{filter:brightness(1.06);}
+.chip-soon{display:inline-block;background:#fde7e9;color:#9C0006;font-weight:bold;border-radius:5px;padding:1px 7px;font-size:10.5px;margin-left:6px;vertical-align:middle;}
+.empty{background:#fff;border:1px dashed #c9d3e6;border-radius:12px;padding:18px;font-size:13px;line-height:1.8;color:#555;}
+footer{text-align:center;color:#8a93a6;font-size:11.5px;padding:24px 12px 8px;line-height:1.8;}
+footer b{color:#1A1A2E;}
+</style></head><body>
+<header><div class="wrap" style="padding-bottom:0;">
+<div class="row"><div><h1>AI 赛事百晓生 · 还能报 &amp; 即将开启</h1>
+<span class="badge">常驻 · 持续更新</span></div>
+<div class="ver">版本 2026-11-20（准确核版）<br>最后核验 11-20</div></div>
+<div class="sub">只收「还能报」和「即将开启」两类 ｜ 每张卡片报名入口均可点击 ｜ 自包含单文件，可转发、可收藏</div>
+</div></header>
+<div class="wrap">
+<div class="tip"><b>口径：</b>①「还能报」= 报名仍在进行/未截止，且有可访问的网页报名入口（网页探活200）；②「即将开启」= 已官宣将于近期开放、但当前尚未开放报名；③ 初赛报名已截止、仅邮箱报名、学生/校内/地域限定、纯视频内容类的，一律不收入本表。<b>三个维度徽章</b>：🟢线上/🟠线下/🔵混合 ｜ 地区（国内/国外/不限）｜ 资格（是否对你开放）。👇 <b>点下方筛选器</b>，可按「地区 / 形式 / 人群」实时过滤。</div>
+<div class="filters">
+  <div class="fgroup"><span class="flabel">地区</span><button class="fbtn active" data-g="scope" data-v="all">全部</button><button class="fbtn" data-g="scope" data-v="国内">国内</button><button class="fbtn" data-g="scope" data-v="国外">国外</button><button class="fbtn" data-g="scope" data-v="不限">不限</button></div>
+  <div class="fgroup"><span class="flabel">形式</span><button class="fbtn active" data-g="form" data-v="all">全部</button><button class="fbtn" data-g="form" data-v="线上">线上</button><button class="fbtn" data-g="form" data-v="线下">线下</button><button class="fbtn" data-g="form" data-v="混合">线上线下</button></div>
+  <div class="fgroup"><span class="flabel">人群</span><button class="fbtn active" data-g="elig" data-v="all">全部</button><button class="fbtn" data-g="elig" data-v="open">不限</button><button class="fbtn" data-g="elig" data-v="student">纯学生</button></div>
+  <div class="fgroup"><span class="flabel">差旅福利</span><button class="fbtn active" data-g="perk" data-v="all">全部(含不包)</button><button class="fbtn" data-g="perk" data-v="全包">✈🏨全包</button><button class="fbtn" data-g="perk" data-v="包路费">✈包路费</button><button class="fbtn" data-g="perk" data-v="包食宿">🏨包食宿</button><button class="fbtn" data-g="perk" data-v="未标注">未标注</button></div>
+  <div class="fgroup"><span class="flabel">主题</span><button class="fbtn active" data-g="theme" data-v="all">全部</button><button class="fbtn" data-g="theme" data-v="大模型">大模型</button><button class="fbtn" data-g="theme" data-v="智能体">智能体</button><button class="fbtn" data-g="theme" data-v="AIGC">AIGC</button><button class="fbtn" data-g="theme" data-v="机器学习">机器学习</button><button class="fbtn" data-g="theme" data-v="机器人">机器人</button><button class="fbtn" data-g="theme" data-v="数据竞赛">数据竞赛</button><button class="fbtn" data-g="theme" data-v="综合AI">综合AI</button></div>
+  <div class="fcount">当前筛选显示 <b id="fcount">25</b> / 25 项</div>
+</div>
+<h2 class="sec-title">① 还能报（报名进行中）<span class="cnt">25 项 · 按截止时间从近到远</span></h2>
+
+    <div class="card" data-scope="国内" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体">
+      <div class="idx">1</div>
+      <div class="body">
+        <div class="ttl"><b>ECV2026 极智智能体开发者大赛</b><span class="chip-soon">报名将截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上（创意征集—平台开发—线上答辩）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：所有人可报（高校师生/科研人员/企业开发者/AI爱好者，全球开放）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体</span>
+          <span class="tags">智能体/产业应用/岗位应用</span>
+        </div>
+        <div class="note">极视角发起，依托极智智能体开发平台，设产业应用智能体、岗位应用智能体两大赛题；无需提前开发，初赛仅需提交《创意说明书》；冠军¥1万/队、亚军¥7千/队、季军¥4千/队</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-25（初赛报名及作品提交截止） ｜ 剩余 <b>5天</b></span>
+          <a class="btn" href="https://cvmart.net/cv_landing/list/ECV2026" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体 数据竞赛">
+      <div class="idx">2</div>
+      <div class="body">
+        <div class="ttl"><b>Google Gemma 4 Developer Agent Competition（Kaggle）</b><span class="chip-soon">报名将截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（18+或当地法定成年，全球除受限地区）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体/数据竞赛</span>
+          <span class="tags">Agent/coding/Google</span>
+        </div>
+        <div class="note">Google DeepMind 主办，将开源 Gemma 4 后训练为离线 coding agent 修复隐藏 Python bug，官方页奖池 $75,000，团队最多5人</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-25 23:59 UTC（报名/接受规则截止；最终提交12-02） ｜ 剩余 <b>5天</b></span>
+          <a class="btn" href="https://www.kaggle.com/competitions/gemma-4-developer-agent" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="不限" data-form="线上" data-elig="open" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">3</div>
+      <div class="body">
+        <div class="ttl"><b>2026 6G/B6G 无线通信 AI 大赛（DataFountain）</b><span class="chip-soon">本周截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#5b6b8c;background:#eef0f5">不限</span>
+          <span class="pill el-pill">资格：所有人可报（面向全球）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags">6G/通信AI/MIMO</span>
+        </div>
+        <div class="note">IMT-2030(6G)推进组主办、OPPO承办，赛题多用户MIMO端到端传输系统设计；8/18起报名、第二阶段10/19-11/29提交，奖池¥300,000；12月审核答辩</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-29 12:00（第二阶段评测/提交截止） ｜ 剩余 <b>9天</b></span>
+          <a class="btn" href="https://www.datafountain.cn/competitions/1176" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="open" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">4</div>
+      <div class="body">
+        <div class="ttl"><b>AI造物·AI造药专项赛</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：社会组可报（AI造物系列面向全社会）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags">AI4Science/制药/科研</span>
+        </div>
+        <div class="note">中科大科学智能物质创制中心承办，AI造药专项，安徽 AI 赛事品牌之一</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-30（报名及第一轮序列提交截止） ｜ 剩余 <b>10天</b></span>
+          <a class="btn" href="https://aisci.ustc.edu.cn/zaoyao/#/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="open" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">5</div>
+      <div class="body">
+        <div class="ttl"><b>三好AI创新应用竞赛（中国台湾·社会组）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：社会组可报（设社会组）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags">AI应用/社会组</span>
+        </div>
+        <div class="note">中国台湾佛光大学主办，设社会组欢迎社会人士/企业，总奖金 NT$46 万，线上提交</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-30（报名及作品上传截止） ｜ 剩余 <b>10天</b></span>
+          <a class="btn" href="https://3goodai.fgu.edu.tw/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="混合" data-elig="open" data-perk="未标注" data-theme="智能体">
+      <div class="idx">6</div>
+      <div class="body">
+        <div class="ttl"><b>支付宝 PAYATHON 2026（AI 付年度黑客松）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#0066cc;background:#e7f0fb">● 混合（线上初赛·线下决赛路演12.26）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：所有人可报（个人或2-5人团队）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体</span>
+          <span class="tags">AI付/商业化/智能体</span>
+        </div>
+        <div class="note">支付宝 AI 付主办，五大赛道（Vibe/Skill/Machine/Token/Agent Pay），奖池 ¥200,000</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-01（报名截止，作品提交12.09） ｜ 剩余 <b>11天</b></span>
+          <a class="btn" href="https://aipay.alipay.com/community/events/payathon-2026" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">7</div>
+      <div class="body">
+        <div class="ttl"><b>Kiroween 2026（AWS/Kiro 万圣节黑客松）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（成年，全球多数国家；排除部分国家含中国部分限制以官网为准）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags">AI应用/Kiro IDE/10万美元</span>
+        </div>
+        <div class="note">AWS 旗下 Kiro 主办、Devpost 承办，用 Kiro AI IDE 构建全新应用（仅收新项目），现金奖 $100,000，个人/团队最多3人；部分国家/地区受限，报名前查官网规则</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-04 22:00 UTC（提交截止） ｜ 剩余 <b>14天</b></span>
+          <a class="btn" href="https://kiroween.devpost.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="不限" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体">
+      <div class="idx">8</div>
+      <div class="body">
+        <div class="ttl"><b>AWS MSP AI Hackathon</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#5b6b8c;background:#eef0f5">不限</span>
+          <span class="pill el-pill">资格：企业·团队可报（限 AWS Partner Network 的 MSP 成员）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体</span>
+          <span class="tags">AWS/Agent/云/6.4万美元</span>
+        </div>
+        <div class="note">AWS 主办，Build the AI-First MSP，两赛道奖池 $64,000，参赛者须受雇于或代表 APN 注册 MSP 企业</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-11 12:00 PT（提交截止） ｜ 剩余 <b>21天</b></span>
+          <a class="btn" href="https://aws-agentic-msp.devpost.com" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体">
+      <div class="idx">9</div>
+      <div class="body">
+        <div class="ttl"><b>Codegeist 2026: Build with Context &amp; AI（Atlassian）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（成年，个人/1-5人团队）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体</span>
+          <span class="tags">AI Agent/企业级/12万美元</span>
+        </div>
+        <div class="note">Atlassian 年度开发者黑客松，基于 Forge/Rovo 构建智能工作流 Agent 与企业插件，奖池约 $120,000；具体奖金与资格以 Devpost 官方页为准</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-16（注册截止；赛事至12-29） ｜ 剩余 <b>26天</b></span>
+          <a class="btn" href="https://codegeist2026.devpost.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="open" data-perk="未标注" data-theme="AIGC">
+      <div class="idx">10</div>
+      <div class="body">
+        <div class="ttl"><b>2026年全国大学生人工智能应用实践大赛（腾讯 WorkBuddy 创作挑战赛）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：所有人可报（在校大学生为主；各界人士须年满18周岁）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 AIGC</span>
+          <span class="tags">AIGC创作/无需写代码/证书</span>
+        </div>
+        <div class="note">四川汇鑫创融主办，指定用腾讯云 WorkBuddy 创作，不写代码、导出HTML源文件提交，三场独立评奖，提交有效作品即得优秀奖与证书；社会人士满18可报</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-27（报名截止；第二场作品提交12-27） ｜ 剩余 <b>37天</b></span>
+          <a class="btn" href="https://m.saikr.com/AIPC26" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="混合" data-elig="open" data-perk="未标注" data-theme="机器人">
+      <div class="idx">11</div>
+      <div class="body">
+        <div class="ttl"><b>OpenLET 具身智能挑战赛（天池532515）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#0066cc;background:#e7f0fb">● 混合（仿真线上·真机线下）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：所有人可报（面向全社会）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 机器人</span>
+          <span class="tags">具身智能/机器人/工业/50万</span>
+        </div>
+        <div class="note">开放原子开源基金会 OpenLET 主办，工业真实任务，奖池 ¥500,000，赛季制持续报名</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-31（冬季赛报名持续开放） ｜ 剩余 <b>41天</b></span>
+          <a class="btn" href="https://tianchi.aliyun.com/competition/entrance/532515" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="open" data-perk="未标注" data-theme="大模型">
+      <div class="idx">12</div>
+      <div class="body">
+        <div class="ttl"><b>知乎知学堂大模型挑战赛·复杂表格识别（天池532510）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：所有人可报（需实名；须用通义千问+阿里云算力）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 大模型</span>
+          <span class="tags">大模型/表格识别/文档</span>
+        </div>
+        <div class="note">知乎知学堂主办，复杂表格识别与内容理解，奖池 ¥20,000，长期赛季制</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-31（赛季2结束） ｜ 剩余 <b>41天</b></span>
+          <a class="btn" href="https://tianchi.aliyun.com/competition/entrance/532510" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体">
+      <div class="idx">13</div>
+      <div class="body">
+        <div class="ttl"><b>Create AI Agents Championship（迪拜）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上（远程提交原型+路演视频）</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（全球个人/团队，无最低年龄；青年组&lt;21）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体</span>
+          <span class="tags">AI Agent/全球/创业</span>
+        </div>
+        <div class="note">迪拜数字经济商会主办，四类别（社会/个人/商业/青年），总奖金 AED2.5M+，10.7起注册</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-31（报名12月截止，无精确日，以官网为准） ｜ 剩余 <b>41天</b></span>
+          <a class="btn" href="https://www.dubaichamberdigital.com/en/create-ai-agents" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="数据竞赛">
+      <div class="idx">14</div>
+      <div class="body">
+        <div class="ttl"><b>Smart Buildings Competition 2026（NeurIPS 2026·Kaggle）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（18+或当地法定成年，全球除受限地区；团队≤5人）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 数据竞赛</span>
+          <span class="tags">AI控制/HVAC/NeurIPS/4万美元</span>
+        </div>
+        <div class="note">华盛顿大学等主办、NeurIPS 2026 Workshop 赛，为未见过的建筑训练 HVAC 控制策略，奖池 $40,000（主榜$25k+论文$15k）；须通过 Kaggle Notebook 提交</div>
+        <div class="foot">
+          <span class="dl">截止 2027-01-03（报名/组队截止）；01-15 最终提交 ｜ 剩余 <b>44天</b></span>
+          <a class="btn" href="https://www.kaggle.com/competitions/neurips-2026-smart-buildings" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="大模型 机器学习 数据竞赛">
+      <div class="idx">15</div>
+      <div class="body">
+        <div class="ttl"><b>Name That LLM: Identify the Model Behind the Text（Kaggle）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（18+或当地法定成年，全球除受限地区；团队≤5人）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 大模型/机器学习/数据竞赛</span>
+          <span class="tags">NLP/模型归因/5万美元</span>
+        </div>
+        <div class="note">Kaggle 主办、Google 赞助，判断18个前沿大模型中哪一个生成了给定文本，前十名各 $5,000（总 $50,000）</div>
+        <div class="foot">
+          <span class="dl">截止 2027-01-06 23:59 UTC（报名/组队截止）；01-13 提交 ｜ 剩余 <b>47天</b></span>
+          <a class="btn" href="https://www.kaggle.com/competitions/name-that-llm" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="数据竞赛">
+      <div class="idx">16</div>
+      <div class="body">
+        <div class="ttl"><b>NFL Big Data Bowl 2027（Kaggle）</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（多数国家18+；University Track 限本科生队）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 数据竞赛</span>
+          <span class="tags">数据科学/体育AI/10万美元</span>
+        </div>
+        <div class="note">NFL 官方主办第九届，用 10Hz 追踪数据分析 Combine 动作与常规赛表现的关联，奖池 $100,000（含 $45,000 本科生专属）；偏数据科学分析赛</div>
+        <div class="foot">
+          <span class="dl">截止 2027-01-06 23:59 UTC（提交截止，无单独报名截止） ｜ 剩余 <b>47天</b></span>
+          <a class="btn" href="https://www.kaggle.com/competitions/nfl-big-data-bowl-2027" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="open" data-perk="未标注" data-theme="智能体 数据竞赛">
+      <div class="idx">17</div>
+      <div class="body">
+        <div class="ttl"><b>Kaggle Agent Harness on Physical-Engineering's Last Exam</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：所有人可报（18+，全球）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 智能体/数据竞赛</span>
+          <span class="tags">Agent/工程/Google/40万美元</span>
+        </div>
+        <div class="note">Google 主办，构建自主 agent harness 解真实结构/土木/电气/机械工程任务，奖池 $400,000</div>
+        <div class="foot">
+          <span class="dl">截止 2027-01-06（报名/提交截止，UTC） ｜ 剩余 <b>47天</b></span>
+          <a class="btn" href="https://www.kaggle.com/c/physical-engineerings-last-exam" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="混合" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">18</div>
+      <div class="body">
+        <div class="ttl"><b>CrossPointX 2026 校际黑客松</b><span class="chip-soon">本周截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#0066cc;background:#e7f0fb">● 混合（线上+线下）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：纯学生限定（苏州大学/西交利物浦/昆山杜克在校生）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">西交利物浦×昆山杜克×苏大联合主办，约300名学生、必须4人组队、鼓励跨校跨专业，聚焦真实需求与产品原型</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-21（报名截止，11月21-22日比赛） ｜ 剩余 <b>1天</b></span>
+          <a class="btn" href="https://cpx2026.devpost.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="混合" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">19</div>
+      <div class="body">
+        <div class="ttl"><b>荣耀·英特尔 AI 智造创新赛</b><span class="chip-soon">本周截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#0066cc;background:#e7f0fb">● 混合（线上+线下）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：纯学生限定（全国高校在校生）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">荣耀与英特尔主办，YOYO Claw 端侧智能体开发赛道，总奖金 ¥13.5万</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-22（报名截止） ｜ 剩余 <b>2天</b></span>
+          <a class="btn" href="https://www.honor.com/cn/ai-smart-innovation-challenge/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="混合" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">20</div>
+      <div class="body">
+        <div class="ttl"><b>臺大×華南 金融科技黑客松</b><span class="chip-soon">本周截止</span></div>
+        <div class="meta">
+          <span class="pill" style="color:#0066cc;background:#e7f0fb">● 混合（12/1起线上开发·12/4臺大现场Demo评审）</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：纯学生限定（臺大一般生，不含在職生）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">臺大創創學程×華南銀行，三赛道（AI Banking Agents/Trust &amp; Safety/Open Finance），总奖金 NT$180,000，每队至少1人须到场</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-23（报名截止，报名期11/2起） ｜ 剩余 <b>3天</b></span>
+          <a class="btn" href="https://luma.com/hccyc199" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">21</div>
+      <div class="body">
+        <div class="ttl"><b>高校大学生智能创新与计算机技能应用挑战赛·AI芯智能赛道</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：纯学生限定（高校本专科及研究生；其他人员需年满18周岁）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">中国电子企业协会主办，50道客观题（单选/多选/判断）在线答题，考AI基础通识、大模型与生成式AI、AI伦理安全合规，证书由双单位盖章</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-27（报名截止；第一场考试11/28-11/29） ｜ 剩余 <b>7天</b></span>
+          <a class="btn" href="https://m.saikr.com/vse/AI2026ZNCX" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">22</div>
+      <div class="body">
+        <div class="ttl"><b>Global AI Builder's Challenge</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">Refactor The World 主办，11/21-11/28 一周制全球学生线上赛，设总榜Top10与21个分类奖，提交需GitHub仓库+2-4分钟演示视频</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-28（提交截止） ｜ 剩余 <b>8天</b></span>
+          <a class="btn" href="https://global-ai-builders-challenge.devpost.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国内" data-form="线上" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">23</div>
+      <div class="body">
+        <div class="ttl"><b>2026 Qoder 高校创造力大赛</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#c0392b;background:#fbeae8">国内</span>
+          <span class="pill el-pill">资格：纯学生限定（全国在校大学生含港澳台本硕博；在职人员与高中生不可报）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">阿里云 Qoder×天池主办，用 Qoder 做能公开访问的完整应用并部署到 Qoder Sites，三赛道（StudyHack/LifeHack/Hack4Good），总奖金 ¥88,500；须完成天池实名与阿里云学生认证</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-30（报名、组队与作品发布同时截止，18:00） ｜ 剩余 <b>10天</b></span>
+          <a class="btn" href="https://tianchi.aliyun.com/competition/entrance/532536" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">24</div>
+      <div class="body">
+        <div class="ttl"><b>SpectoV National Hackathon 2026</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：纯学生限定（印度在校学生；个人报名）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">SpectoV 主办，微软/AMD 赞助，三赛道（AI/App开发/Web开发），奖金 ₹5.5万+ 现金与6个月带薪实习机会，报名费 ₹149</div>
+        <div class="foot">
+          <span class="dl">截止 2026-11-30（报名截止，名额250人先到先得） ｜ 剩余 <b>10天</b></span>
+          <a class="btn" href="https://snh.hiringspectov.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-scope="国外" data-form="线上" data-elig="student" data-perk="未标注" data-theme="综合AI">
+      <div class="idx">25</div>
+      <div class="body">
+        <div class="ttl"><b>GenHacks</b></div>
+        <div class="meta">
+          <span class="pill" style="color:#1a7a1a;background:#e6f4ea">● 线上</span>
+          <span class="pill" style="color:#00838f;background:#e0f4f6">国外</span>
+          <span class="pill el-pill">资格：纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）</span>
+          
+          <span class="pill theme-pill" title="主题标签">🏷 综合AI</span>
+          <span class="tags"></span>
+        </div>
+        <div class="note">Devpost 线上学生黑客松，11/1起开放、四赛道（医疗健康环保/机器人IoT/AI与智能体安全/Open），奖金 CAD 1,050 现金，支持个人或任意规模团队</div>
+        <div class="foot">
+          <span class="dl">截止 2026-12-26（提交截止，12/26 00:00 EST） ｜ 剩余 <b>36天</b></span>
+          <a class="btn" href="https://genhacks-open.devpost.com/" target="_blank" rel="noopener">报名入口 →</a>
+        </div>
+      </div>
+    </div>
+<h2 class="sec-title">② 即将开启（已官宣 · 尚未开放报名）<span class="cnt">截至本快照暂无</span></h2>
+<div class="empty">目前检索范围内（公众号/小红书/知乎 + 天池/魔搭/DataFountain/官网等）<b>暂无「已官宣但报名还没开」的赛事</b>。凡能查到的基本都在报（见上）或已截止/限定。如果你有「听说要开、但官网还没放报名」的赛，把名字告诉我，我会核验后补进本区。</div>
+<footer><b>AI 赛事百晓生</b>（常驻分享版）· 快照 2026-11-20<br>蓝字按钮 = 可点击官方/可查网页 ｜ 报名前请以官网核对截止日 ｜ 本清单持续维护，见新赛即迭代更新。<br>生成自 WorkBuddy</footer>
+</div>
+<script>
+(function(){
+  var cards=document.querySelectorAll('.card[data-scope]');
+  var state={scope:'all',form:'all',elig:'all',perk:'all',theme:'all'};
+  var cnt=document.getElementById('fcount');
+  function apply(){
+    var n=0;
+    cards.forEach(function(c){
+      var ok=(state.scope==='all'||c.getAttribute('data-scope')===state.scope)
+        &&(state.form==='all'||c.getAttribute('data-form')===state.form)
+        &&(state.elig==='all'||c.getAttribute('data-elig')===state.elig)
+        &&(state.perk==='all'||c.getAttribute('data-perk')===state.perk)
+        &&(state.theme==='all'||(' '+(c.getAttribute('data-theme')||'')+' ').indexOf(' '+state.theme+' ')>=0);
+      c.style.display=ok?'':'none';
+      if(ok){n++;}
+    });
+    if(cnt)cnt.textContent=n;
+  }
+  document.querySelectorAll('.fbtn').forEach(function(b){
+    b.addEventListener('click',function(){
+      var g=b.getAttribute('data-g');
+      document.querySelectorAll('.fbtn[data-g="'+g+'"]').forEach(function(x){x.classList.remove('active');});
+      b.classList.add('active');
+      state[g]=b.getAttribute('data-v');
+      apply();
+    });
+  });
+  apply();
+})();
+</script>
+</body></html>

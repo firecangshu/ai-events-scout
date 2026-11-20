@@ -29,5 +29,9 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# ===== 发布平台内部标记 / 临时发布目录 =====
+*.genie
+_publish_site/
+
 # ===== 大体积归档压缩包 =====
 *.zip

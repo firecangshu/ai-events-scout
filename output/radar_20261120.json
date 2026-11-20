@@ -1,0 +1,2217 @@
+{
+  "meta": {
+    "query": "AI hackathon 2026",
+    "generated_at": "2026-11-20T20:25:30+08:00",
+    "mode": "global_free",
+    "scope": "global",
+    "lang": "en",
+    "sources_requested": [
+      "gdelt",
+      "hn_algolia",
+      "arxiv",
+      "github",
+      "devfolio",
+      "site_scan",
+      "freesearch",
+      "agent_reach"
+    ],
+    "raw_count": 85,
+    "result_count": 40
+  },
+  "engines": [
+    {
+      "engine": "gdelt",
+      "label": "GDELT 全球新闻",
+      "status": "skipped",
+      "count": 0,
+      "message": "GDELT 暂无结果或触发 429 限流（共享 IP 常见），已跳过",
+      "cost_note": "",
+      "elapsed_ms": 49003
+    },
+    {
+      "engine": "hn_algolia",
+      "label": "Hacker News",
+      "status": "ok",
+      "count": 30,
+      "message": "Hacker News Algolia 公开 API",
+      "cost_note": "",
+      "elapsed_ms": 3568
+    },
+    {
+      "engine": "arxiv",
+      "label": "arXiv",
+      "status": "skipped",
+      "count": 0,
+      "message": "arXiv Atom API",
+      "cost_note": "",
+      "elapsed_ms": 2311
+    },
+    {
+      "engine": "github",
+      "label": "GitHub",
+      "status": "ok",
+      "count": 20,
+      "message": "GitHub Search API（匿名限速，失败自动跳过）",
+      "cost_note": "",
+      "elapsed_ms": 4429
+    },
+    {
+      "engine": "devfolio",
+      "label": "Devfolio",
+      "status": "ok",
+      "count": 4,
+      "message": "Devfolio 公开页面，发现 20 个开放赛事，按 query 过滤后 4 个",
+      "cost_note": "",
+      "elapsed_ms": 5405
+    },
+    {
+      "engine": "site_scan",
+      "label": "站点扫描",
+      "status": "ok",
+      "count": 21,
+      "message": "site: 扫描 5 组查询（Devpost/Kaggle/MLH/Reddit/中文平台）",
+      "cost_note": "",
+      "elapsed_ms": 38525
+    },
+    {
+      "engine": "freesearch",
+      "label": "FreeSearch 本地服务",
+      "status": "skipped",
+      "count": 0,
+      "message": "未检测到本地 FreeSearch API（默认 127.0.0.1:8000）",
+      "cost_note": "",
+      "elapsed_ms": 0
+    },
+    {
+      "engine": "agent_reach",
+      "label": "Agent Reach",
+      "status": "ok",
+      "count": 10,
+      "message": "渠道结果：小红书 未登录，跳过；Reddit 未登录，跳过；X 未登录，跳过；B站 调用失败：NEED_SETUP bili is not installed；网页保底 10 条；YouTube 调用失败：TIMEOUT yt-dlp did not finish within 20s",
+      "cost_note": "",
+      "elapsed_ms": 23447
+    }
+  ],
+  "results": [
+    {
+      "id": "ff0682dc72dc443d",
+      "engine": "devfolio",
+      "engines": [
+        "devfolio"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "ETHChiangmai & Longevity Hackathon 2026",
+      "url": "https://devfolio.co/hackathons/chiangmai",
+      "snippet": "Devfolio hackathon · HACKATHON",
+      "content": "",
+      "published_at": "2026-12-26T01:00:00+00:00",
+      "author": "",
+      "source": "Devfolio",
+      "source_type": "platform",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 50.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "ends:2026-12-27"
+      ],
+      "score": 90.4,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 50",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "name": "ETHChiangmai & Longevity Hackathon 2026",
+        "slug": "chiangmai",
+        "starts_at": "2026-12-26T01:00:00+00:00",
+        "ends_at": "2026-12-27T01:00:00+00:00",
+        "is_online": false,
+        "participants_count": 50
+      }
+    },
+    {
+      "id": "cd3f51efb3208467",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach",
+        "multi_search",
+        "web_search"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "The home for AI hackathons",
+      "url": "https://devpost.com/c/artificial-intelligence",
+      "snippet": "# The home for AI hackathons Test and build your AI skills with Devpost hackathons. Compete for prizes, stand out to the world’s leading AI companies, and get hands-on experience with machine learning and generative AI tools. Sign up ## Our current online AI hackathons Dakar Bitcoin Hack by BTrustCreate tools that will enhance the life of African people, around or on top of the Bitcoin protocol, the lightning network, nostr and AI.$900 in prizes372 participantsDeadline: Nov 20, 2026 November 20 at 3:00pm EST to submitOnline AI@UCF Semester SprintA semester long project sprint to dive into new...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 87.3,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知",
+        "含报名/截止信号",
+        "赛事平台来源",
+        "多引擎交叉命中：agent_reach/multi_search/web_search"
+      ],
+      "raw": {
+        "title": "The home for AI hackathons",
+        "url": "https://devpost.com/c/artificial-intelligence",
+        "author": null,
+        "published_at": null,
+        "text": "# The home for AI hackathons\n\nTest and build your AI skills with Devpost hackathons. Compete for prizes, stand out to the world’s leading AI companies, and get hands-on experience with machine learning and generative AI tools.\n\nSign up\n\n## Our current online AI hackathons\n\nDakar Bitcoin Hack by BTrustCreate tools that will enhance the life of African people, around or on top of the Bitcoin protocol, the lightning network, nostr and AI.$900 in prizes372 participantsDeadline: Nov 20, 2026 November 20 at 3:00pm EST to submitOnline\n\nAI@UCF Semester SprintA semester long project sprint to dive into new AI ideasNon-monetary prizes17 participantsDeadline: Nov 20, 2026 November 20 at 7:00pm EST to submitOnline\n\nBridge The Gap HacksCreate apps and games based on you original ideas. Innovation shouldn’t depend on location.Non-monetary prizes123 participantsDeadline: Nov 21, 2026 November 21 at 2:45am EST to submitOnline\n\nKUK VIRTUAL HACKATHONEmpowering Malaysian Student Innovators in Korea$800 in prizes68 participantsDeadline: Nov 22, 2026 November 22 at 10:00am EST to submitOnline\n\nOBSCURA: Satellite AI Research ChallengeObserving Blocked Satellite Columns Using Remote-sensing and Auxiliary data$50 in prizes122 participantsDeadline: Nov 24, 2026 November 24 at 10:00am EST to submitOnline\n\nHackathon Agéntico SoftwareChido 2026BHackathon AgénticoNon-monetary prizes38 participantsDeadline: Nov 25, 2026 November 25 at 1:15am EST to submitOnline\n\nHackWithAdityaGreat builds start before the hackathon₹ 500,000 in prizes233 participantsDeadline: Nov 25, 2026 November 25 at 1:15pm EST to submitOnline\n\nBuild Your First AI AppBuild your first AI app in 30 days! Create chatbots, study and documents assistants. A tools, or productivity apps. Beginner-friendly, free to join, and open to creative ideas.Non-monetary prizes678 participantsDeadline: Nov 27, 2026 November 27 at 5:00pm EST to submitOnline\n\nGlobal AI Builder’s ChallengeBuild something that uses AI to help people learn, create, or make an everyday task easier.Non-monetary prizes331 participantsDeadline: Nov 28, 2026 Starts in November 21 at 3:00am ESTOnline\n\n#BuildHybridAI 2026Build AI apps that run on-device and in the cloud with Firebase AI Logic.$30,000 in prizes3627 participantsDeadline: Nov 30, 2026 November 30 at 5:00pm EST to submitOnline\n\nML Empowerment Build Challenge 4.0 - Prizes and Certificates for EVERYONELearn AI, build real-world projects, and create impact through guided resources, mentorship, and a global community of student innovators.Non-monetary prizes213 participantsDeadline: Dec 2, 2026 December 02 at 2:45am EST to submitOnline\n\nKiroween 2026Build something wicked and git commit to the darkness.$100,000 in prizes17374 participantsDeadline: Dec 4, 2026 December 04 at 5:00pm EST to submitOnline\n\nAI for Medicine: A Global Student Hackathon on the Future of CareBuild the thing that makes care cheaper, faster, or possible at all. Diagnosis, triage, monitoring, access; pick a real problem and show your work.Non-monetary prizes205 participantsDeadline: Dec 4, 2026 December 04 at 11:45pm EST to submitOnline\n\nNeuroHack Fall 2026 - Rewiring Pathways: Innovative NeuroscienceRewiring Pathways: Innovative Neuroscience (Neuroscience backed by Innovation)Non-monetary prizes1 participantDeadline: Dec 6, 2026 Starts in December 05 at 12:00pm ESTOnline\n\n...\n\nSLAY HACKSBuild bold. Code creatively. Slay real-world challenges. A hackathon for curious beginners and passionate builders to turn fresh ideas into working projects.$4,500 in prizes453 participantsDeadline: Dec 7, 2026 December 07 at 5:00pm EST to submitOnline\n\n...\n\nYour coding agent builds the Lens, no SPECS required.$2,500 in prizes390 participantsDeadline: Dec 7, 2026 December 07 at 5:00pm EST to submitOnline\n\nAI OpenBuildBuild anything with AI. Turn models, data, and bold ideas into working experiences.$150 in prizes188 participantsDeadline: Dec 10, 2026 December 10 at 11:45pm EST to submitOnline\n\nAWS MSP AI HackathonBuild the AI-First MSP: Run smarter, Deliver more$64,000 in prizes478 participantsDeadline: Dec 11, 2026 December 11 at 3:00pm EST to submitOnline\n\nRelate by Neo4j HackathonAn open source, embedded database for AI agentsNon-monetary prizes612 participantsDeadline: Dec 11, 2026 December 11 at 9:00pm EST to submitOnline\n\n...\n\n## Our current in-person AI hackathons\n\nBuild with Gemma - Innovate in WindsorSponsored by Google and GDG Windsor. Teams are invited to submit a proposal for an innovative solution leveraging on-edge AI with the open-source family of Gemma models by Google.Non-monetary prizes20 participantsNov 13 - Nov 20, 2026 November 20 at 11:45pm EST to submitWindsor, Canada\n\nUniversity Blockchain Conference Hackathon 2026UBC is designed to provide new and experienced builders from all backgrounds opportunities to research, build, and pitch their wildest crypto ideas to a panel of industry experts.$22,000 in prizes494 participantsNov 13 - Nov 20, 2026 November 20 at 1:00pm EST to submitAustin, TX, USA\n\nDiwali Festiverse: The Agent-to-Agent Hackathon (India Edition)​This Diwali, bring AI agents together to collaborate, compete, and build what one agent alone cannot.$700 in prizes61 participantsNov 17 - Nov 24, 2026 November 24 at 11:30am EST to submitBengaluru, India\n\n...\n\nTUJ Fall 2026 HackathonTUJ's Fall 2026 Hackathon with a heavily unique-theme that offers students a variety of challenges away from the traditional hackathons.Non-monetary prizes0 participantsNov 20 - Nov 22, 2026 Starts in November 20 at 8:00pm ESTSetagaya City, Japan\n\n...\n\nThis professional 1-day sprint merges the global energy of Google’s DevFest 2026 campaign.Non-monetary prizes42 participantsNov 21 - Nov 21, 2026 Starts in November 21 at 3:00am\n\n---",
+        "raw": {
+          "title": "The home for AI hackathons",
+          "url": "https://devpost.com/c/artificial-intelligence",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "3dd77ceb4b6d291a",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "AI hackathons closing in November 2026 | AI Hackathon",
+      "url": "https://aihackathon.app/deadlines/2026-11/",
+      "snippet": "# AI hackathons closing in November 2026 28 online AI hackathons on this site have a registration or submission deadline in November 2026. 12 of them are still open. Dates are in UTC. 12 hackathons still open for registration close within 14 days. | Deadline (UTC) | Hackathon | Cash prize | Platform | Status | | --- | --- | --- | --- | --- | | Nov 2, 16:45 | Perfect Corp. · YouCam API Skin AI & eCommerce VTO Hackathon | $6,000 | Devpost | Ended | | Nov 5, 02:00 | Meta Global AI Developer Hackathon | $1,000,000 | Meta / Cerebral Valley | Ended | | Nov 8, 23:00 | Vultr Agent Rush Hackathon | $9,...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 85.5,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知",
+        "含报名/截止信号",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "title": "AI hackathons closing in November 2026 | AI Hackathon",
+        "url": "https://aihackathon.app/deadlines/2026-11/",
+        "author": null,
+        "published_at": null,
+        "text": "# AI hackathons closing in November 2026\n\n28 online AI hackathons on this site have a registration or submission deadline in November 2026. 12 of them are still open. Dates are in UTC.\n\n12 hackathons still open for registration close within 14 days.\n\n| Deadline (UTC) | Hackathon | Cash prize | Platform | Status |\n| --- | --- | --- | --- | --- |\n| Nov 2, 16:45 | Perfect Corp. · YouCam API Skin AI & eCommerce VTO Hackathon | $6,000 | Devpost | Ended |\n| Nov 5, 02:00 | Meta Global AI Developer Hackathon | $1,000,000 | Meta / Cerebral Valley | Ended |\n| Nov 8, 23:00 | Vultr Agent Rush Hackathon | $9,000 | lablab.ai | Ended |\n| Nov 10, 05:00 | Anthropic · Built with Claude: Japan 2026 | Not stated | Cerebral Valley | Ended |\n| Nov 10, 11:30 | GL Bajaj · Db2Hack 2026 | Build AI Applications on IBM Db2 | Not stated | Unstop | Ended |\n| Nov 12, 20:00 | PayPal AI Hackathon | $67,500 | Devpost | Ended |\n| Nov 13, 18:29 | DotRepo · AI Vibeathon 2026: 24-Hour AI Hackathon | $905 | Unstop | Ended |\n| Nov 14, 09:22 | Aveeranex · Innovate - Online Hackathon | Not stated | Unstop | Ended |\n| Nov 15, 03:30 | IIIT Bangalore · The Liar's Chatroom | $264 | Unstop | Ended |\n| Nov 15, 14:00 | Makers Need More · Catalyst - Solo AI Hackathon | $158 | Unstop | Ended |\n| Nov 15, 18:29 | Geek Room · Global AI Hackathon | $1,000 | HackCulture | Ended |\n| Nov 16, 07:45 | UGREEN Hackathon 2026 on AI NAS | $46,000 | Devpost | Ended |\n| Nov 16, 11:59 | Lexsi AI Safety and Alignment Hackathon | Not stated | Lexsi Labs | Ended |\n| Nov 16, 11:59 | Apart Research · AI x Epistemics Research Sprint | $2,000 | Apart Research | Ended |\n| Nov 18, 18:29 | Krixov · Build 2 Rise 2026 | Not stated | Unstop | Ended |\n| Nov 19, 11:00 | Manycore Aholo Global 3D AI Hackathon | $47,971 | Aholo / ModelScope | Ended |\n| Nov 21, 05:30 | Product Space · Agentic AI Hackathon | $106 | Unstop | Open |\n| Nov 21, 18:29 | Gen-AI Product Hackathon | $532 | Unstop | Open |\n| Nov 22, 18:29 | Seed Hackathon 2026 | $2,129 | Unstop | Open |\n| Nov 24, 15:00 | BTAJI CREW · OBSCURA: Satellite AI Research Challenge | $50 | Devpost | Open |\n| Nov 25, 18:29 | Code to Cart: AI x E-commerce Hackathon | KartAI X CodeXcelerate | $85 | Unstop | Open |\n| Nov 28, 01:30 | Studentchakra · Agents that act. Systems that answer. | Free Virtual Agentic-AI Hackathon | Not stated | Unstop | Open |\n| Nov 29, 18:30 | Mastermind Research Technologies · Hacknexus | Not stated | Unstop | Open |\n| Nov 29, 19:59 | Heads Up: Even Realities Hackathon | $10,000 | DoraHacks | Open |\n| Nov 30, 10:00 | 2026 Qoder Campus Creativity Competition | $12,465 | Alibaba Cloud Tianchi | Open |\n| Nov 30, 18:00 | Agentware | 72-Hour Hackathon | $1,800 | Unstop | Open |\n| Nov 30, 18:29 | Lovely Professional University · CodeDia 2026 | $106 | Unstop | Open |\n| Nov 30, 22:00 | Firebase · #BuildHybridAI 2026 | $30,000 | Devpost | Open |\n\n---",
+        "raw": {
+          "title": "AI hackathons closing in November 2026 | AI Hackathon",
+          "url": "https://aihackathon.app/deadlines/2026-11/",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "eb59c15e5f6982fc",
+      "engine": "web_search",
+      "engines": [
+        "agent_reach",
+        "multi_search",
+        "web_search"
+      ],
+      "engine_group": "web",
+      "query": "Devpost AI hackathon registration open 2026",
+      "title": "PayPal AI Hackathon: Build what’s next with PayPal and AI - Devpost",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "snippet": "# PayPal AI Hackathon ### Build what’s next with PayPal and AI This hackathon has ended Find more hackathons ###### Who can participate - Above legal age of majority in country of residence - All countries/territories, excluding standard exceptions View full rules Winners announced soon View schedule Dec 21, 2026 | Online | Public | | --- | --- | | $67,500 in cash | 35822 participants | PayPal Managed by Devpost Low/No Code Machine Learning/AI Web #### About the challenge PayPal already moves money for millions of people and businesses, every day, all over the world. This hackathon is us openi...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "paypalaihackathon.devpost.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "bing_int",
+        "site-scan"
+      ],
+      "score": 84.7,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.82",
+        "发布时间未知",
+        "赛事平台来源",
+        "多引擎交叉命中：agent_reach/multi_search/web_search"
+      ],
+      "raw": null
+    },
+    {
+      "id": "4f0b70a810ad482c",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "url": "https://duti.dev/blog/2026/spr/",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-08-17T07:28:43Z",
+      "author": "mindracer",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 57.0,
+        "comment": 62.0,
+        "share": 0.0,
+        "interaction": 119.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 84.2,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 119"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "mindracer"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "HackEurope <em>2026</em>: A short rant on <em>AI</em> and <em>hackathons</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "2026"
+            ],
+            "value": "https://duti.dev/blog/<em>2026</em>/spr/"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_mindracer",
+          "story_49327490"
+        ],
+        "author": "mindracer",
+        "children": [
+          49327920,
+          49328072,
+          49328178,
+          49328201,
+          49328361,
+          49328376,
+          49328525,
+          49328594,
+          49328867,
+          49330016,
+          49331377
+        ],
+        "created_at": "2026-08-17T07:28:43Z",
+        "created_at_i": 1786951723,
+        "num_comments": 62,
+        "objectID": "49327490",
+        "points": 57,
+        "story_id": 49327490,
+        "title": "HackEurope 2026: A short rant on AI and hackathons",
+        "updated_at": "2026-09-03T21:37:19Z",
+        "url": "https://duti.dev/blog/2026/spr/"
+      }
+    },
+    {
+      "id": "2b638e903eaa24a9",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "dam1r-dev/hackathon_MITU_2026",
+      "url": "https://github.com/dam1r-dev/hackathon_MITU_2026",
+      "snippet": "Hackathon in MITU. Team 3 members. AI-powered networking for tech meetups: fill in a short profile and get 5 people worth meeting, each with a one-line reason. Goal-aware matching (job seekers see hirers, mentees see mentors) over 100+ synthetic profiles. Web app, built for the AI in Engineering Hackathon 2026.",
+      "content": "Hackathon in MITU. Team 3 members. AI-powered networking for tech meetups: fill in a short profile and get 5 people worth meeting, each with a one-line reason. Goal-aware matching (job seekers see hirers, mentees see mentors) over 100+ synthetic profiles. Web app, built for the AI in Engineering Hackathon 2026.",
+      "published_at": "2026-11-20T12:22:37Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 82.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "dam1r-dev/hackathon_MITU_2026",
+        "html_url": "https://github.com/dam1r-dev/hackathon_MITU_2026"
+      }
+    },
+    {
+      "id": "2a7d518ef8b8eb59",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "hacky-man/Nexconn_Hackathon-2026",
+      "url": "https://github.com/hacky-man/Nexconn_Hackathon-2026",
+      "snippet": "Blabbler AI ( An AI plugin for localized perosnalized formal and informal conversation )",
+      "content": "Blabbler AI ( An AI plugin for localized perosnalized formal and informal conversation )",
+      "published_at": "2026-11-20T09:08:40Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 82.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "hacky-man/Nexconn_Hackathon-2026",
+        "html_url": "https://github.com/hacky-man/Nexconn_Hackathon-2026"
+      }
+    },
+    {
+      "id": "24b037f6efb184ff",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Since AI Hackathon 2026 — 6–8 November, Turku, Finland",
+      "url": "https://sinceai.ai/hackathon",
+      "snippet": "Since AI Hackathon 2026 — 6–8 November, Turku, Finland # Since AI Hackathon 2026. 6–8 November. 1,000+ builders. €50,000+ in cash prizes. November 6–8, 2026 / Turku, Finland / 15 company challenges / Free to enter / Open to builders worldwide until Since AI Hackathon 2026 begins 00: 00: 00: 00 days hours minutes seconds Registration is open — apply now ... Since AI Hackathon 2026 is built for 15 company challenges, each set by a company that actually needs it solved. Build something they can use — and get in front of the people who do the hiring. ... Teams form on Friday afternoon, select one...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 82.5,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知",
+        "含报名/截止信号"
+      ],
+      "raw": {
+        "title": "Since AI Hackathon 2026 — 6–8 November, Turku, Finland",
+        "url": "https://sinceai.ai/hackathon",
+        "author": null,
+        "published_at": null,
+        "text": "Since AI Hackathon 2026 — 6–8 November, Turku, Finland\n\n# Since AI Hackathon 2026.\n\n6–8 November. 1,000+ builders. €50,000+ in cash prizes.\n\nNovember 6–8, 2026 / Turku, Finland / 15 company challenges / Free to enter / Open to builders worldwide\n\nuntil Since AI Hackathon 2026 begins 00: 00: 00: 00 days hours minutes seconds\n\nRegistration is open — apply now\n\n...\n\nSince AI Hackathon 2026 is built for 15 company challenges, each set by a company that actually needs it solved. Build something they can use — and get in front of the people who do the hiring.\n\n...\n\nTeams form on Friday afternoon, select one of 15 company challenges in sinceai.app between 15:00 and 17:30, and ship by Sunday's 10:00 deadline. 1,000+ builders are expected in 2026, with challenges set by Valmet, Bayer, Turku Energia, Apetit, Takomo Golf, FORCIT Group, Elisa, Meyer Turku, Traficom, Lindström, Business Turku, DNA, Fonecta, Europress and TrustED. Open to developers, researchers, and entrepreneurs worldwide.\n\n...\n\n## At a glance.\n\nDate\n\nNovember 6 15:00 – November 8 15:30, 2026\n\nVenues\n\nEduCity (opening and closing), BioCity and Joki (building) — Turku, Finland\n\nPrize pool\n\n€50,000+ in cash\n\nFormat\n\nAI hackathon, Friday 6 to Sunday 8 November\n\nSchedule\n\nFri 15:00 check-in · Fri 17:00 opening · Sun 10:00 submissions close · Sun 13:15 closing ceremony · Sun 14:00 finals · ends around 15:30\n\nChallenges\n\n15 company challenges\n\nKeynote\n\nJason Mayes, Web AI Lead at Google\n\nExpected\n\n1,000+ builders\n\nParticipation\n\nFree\n\nOpen to\n\nBuilders worldwide — students and professionals\n\nMLH\n\nMLH 2027 Season Member Event\n\n---",
+        "raw": {
+          "title": "Since AI Hackathon 2026 — 6–8 November, Turku, Finland",
+          "url": "https://sinceai.ai/hackathon",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "9493fe18b67c8c1b",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "ODSC × Nebius Hackathon | Oct 28 – Nov 20, 2026",
+      "url": "https://hackathon.odsc.ai/",
+      "snippet": "ODSC × Nebius Hackathon | Oct 28 – Nov 20, 2026 # ODSC × Nebius Hackathon One kickoff. Your team. A working AI demo. Build with open models and Nebius AI Cloud. Free registration · No acceptance review · In person or online SUBMISSION DEADLINE Friday, November 20, 2026 11:59 PM EST Closes in 00 Days 18 Hours 50 Minutes 02 Seconds THE DATES October 28 – November 20, 2026 KICKOFF ODSC AI West, San Francisco · Streamed online THE FORMAT Virtual build · Open to everyone · Solo or teams ## Build a research agent that brings its sources Build an agent that turns a question into a sourced, verifiable...",
+      "content": "",
+      "published_at": "",
+      "author": "ODSC AI",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 81.3,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知",
+        "含报名/截止信号"
+      ],
+      "raw": {
+        "title": "ODSC × Nebius Hackathon | Oct 28 – Nov 20, 2026",
+        "url": "https://hackathon.odsc.ai/",
+        "author": "ODSC AI",
+        "published_at": null,
+        "text": "ODSC × Nebius Hackathon | Oct 28 – Nov 20, 2026\n\n# ODSC × Nebius Hackathon\n\nOne kickoff. Your team. A working AI demo. Build with open models and Nebius AI Cloud.\n\nFree registration · No acceptance review · In person or online\n\nSUBMISSION DEADLINE\n\nFriday, November 20, 2026\n\n11:59 PM EST\n\nCloses in\n\n00\n\nDays\n\n18\n\nHours\n\n50\n\nMinutes\n\n02\n\nSeconds\n\nTHE DATES\n\nOctober 28 – November 20, 2026\n\nKICKOFF\n\nODSC AI West, San Francisco · Streamed online\n\nTHE FORMAT\n\nVirtual build · Open to everyone · Solo or teams\n\n## Build a research agent that brings its sources\n\nBuild an agent that turns a question into a sourced, verifiable answer, using Nebius Token Factory for open-model inference and Tavily for real-time web search.\n\n### Requirements\n\n- Inference on Nebius Token Factory\n- Real-time web search with Tavily\n- A public repo with a README\n- A demo video (2–3 minutes suggested)\n\nNebius suggests a 2–3 minute demo video, plus a public repository with a README. A short live Q&A for finalists may be arranged if the judging process allows it; this is optional and not a live demo day.\n\n---",
+        "raw": {
+          "title": "ODSC × Nebius Hackathon | Oct 28 – Nov 20, 2026",
+          "url": "https://hackathon.odsc.ai/",
+          "published": "N/A",
+          "author": "ODSC AI"
+        }
+      }
+    },
+    {
+      "id": "143e4957a6723396",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Mistral AI Worldwide Hackathon 2026",
+      "url": "https://worldwide-hackathon.mistral.ai",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-02-10T15:13:03Z",
+      "author": "pretext",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 79.5,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近一年发布",
+        "互动数据 2"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "pretext"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "Mistral <em>AI</em> Worldwide <em>Hackathon</em> <em>2026</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://worldwide-<em>hackathon</em>.mistral.<em>ai</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_pretext",
+          "story_46960765"
+        ],
+        "author": "pretext",
+        "created_at": "2026-02-10T15:13:03Z",
+        "created_at_i": 1770736383,
+        "num_comments": 0,
+        "objectID": "46960765",
+        "points": 2,
+        "story_id": 46960765,
+        "title": "Mistral AI Worldwide Hackathon 2026",
+        "updated_at": "2026-03-18T15:00:15Z",
+        "url": "https://worldwide-hackathon.mistral.ai"
+      }
+    },
+    {
+      "id": "50de123eee6e22eb",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "2026 AI Hackathons | lablab.build",
+      "url": "https://lablab.build/ai-hackathons/year/2026",
+      "snippet": "# 2026 AI Hackathons 31 AI hackathons took place in 2026 on lablab.build, bringing together 113,781+ builders worldwide. Browse all 31 AI hackathons from 2026. From early-stage experiments to industry-leading competitions, these events shaped the AI builder community. DEC 11 - 13 ## AGENT STACK 48 - AI Agents & Tools Hackathon A 48-hour online hackathon to build specialized AI agents or the tools that power them — including APIs, MCP servers, SDKs, connectors, integrations, and reusable toolkits. Finished NOV 3 - 6 ## TEST lablab.build cutover ust a test NOV 3 - 8 ## Vultr: Agent Rush Hackatho...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 77.5,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知"
+      ],
+      "raw": {
+        "title": "2026 AI Hackathons | lablab.build",
+        "url": "https://lablab.build/ai-hackathons/year/2026",
+        "author": null,
+        "published_at": null,
+        "text": "# 2026 AI Hackathons\n\n31 AI hackathons took place in 2026 on lablab.build, bringing together 113,781+ builders worldwide.\n\nBrowse all 31 AI hackathons from 2026. From early-stage experiments to industry-leading competitions, these events shaped the AI builder community.\n\nDEC 11 - 13\n\n## AGENT STACK 48 - AI Agents & Tools Hackathon\n\nA 48-hour online hackathon to build specialized AI agents or the tools that power them — including APIs, MCP servers, SDKs, connectors, integrations, and reusable toolkits. \n\nFinished\n\nNOV 3 - 6\n\n## TEST lablab.build cutover\n\nust a test\n\nNOV 3 - 8\n\n## Vultr: Agent Rush Hackathon\n\n🌎 Hybrid Hackathon | 💻 Online Build: 3–8 November 2026 | On-site Phase: 8 November 2026 📍 On-site Venue: Pierpont Place 163 W Pierpont Ave, Salt Lake City, UT 84101, USA ✨ Please note that travel and accommodation are not covered.\n\nOCT 16 - 19\n\n## TechEx Amsterdam Hackathon - AI & Big Data Expo Europe\n\n🌎 Hybrid Hackathon | 💻 Online Build: October 16–19, 2026 | 📍 On-site: October 19–20, 2026 The official hackathon of AI & Big Data Expo Europe, organized by TechEx Events and lablab.ai. Build AI applications and agents across AI, cybersecurity, cloud, IoT, automation, edge computing, digital transformation, and data infrastructure, then showcase your project live at one of Europe's largest enterprise technology events. 📍 On-site Venue (October 19–20): RAI Amsterdam Europaplein 24, 1078 GZ Amsterdam, Netherlands 📍 If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.\n\nOCT 12 - 18\n\n## AMD Developer Hackathon: ACT III\n\n🌎 Hybrid Hackathon | 💻 Online Build: 12-17 October 2026 | On-site phase: 17-18 October 2026 To participate in the hackathon, simply click Sign up with AMD. If you are not already a member of the AMD AI Developer Program (ADP), you will need to create an account. The AMD Developer Hackathon: ACT III is a hands-on event for developers, founders, engineers and builders who want to push what’s possible with AI on real infrastructure. 📍 If approved for the on-site experience, you'll also have the opportunity to showcase your project live. Travel and accommodation will not be covered.\n\n...\n\n## WeAreDevelopers x BAND present: Dark Factory (hackathon edition)\n\n🌎 Online Hackathon | 💻 Online Build: Sept 26 - Oct 5, 2026 A virtual, global hackathon. Build from anywhere in the world. Dark Factory is the official hackathon of WeAreDevelopers World Congress North America, presented by BAND, but you don't need to be in San Jose to take part. For one week, you build a software factory in BAND Desktop: a band of coding agents that plans work, implements it and checks its own results. 🎟️ Bonus for sign-ups: you are eligible for a free ticket to WeAreDevelopers World Congress North America in San Jose (Sep 23–25). If you do go, stop by the BAND booth: a surprise is waiting for you.\n\n...\n\n## IBM Bob 2.0 hackathon\n\n💻 Online Hackathon | ⏳ Build: 48 hours | 📅 September 25–27, 2026 The official IBM Bob 2.0 hackathon. Build what's next in AI-assisted development, alongside the developers and experts shaping it. ⭐ Get help from experts throughout the event 🤝 Join a team or build solo 💰 Prize pool: $12,000 🧑🏻‍💻 Register before the Kick-Off Stream to start building with Bob\n\n...\n\n## AI Infra Summit Hackathon\n\n🌎 Hybrid Hackathon | 💻 Online Build: September 10–16, 2026 | 📍 On-site: September 15–17, 2026 The official hackathon of AI Infra Summit — co-organized by Kisaco Research and lablab.ai. Build production-grade AI applications on the modern AI infrastructure stack, alongside 8,000+ attendees, researchers, founders, and infra leaders. 📍 On-site Venue (September 15–17): Santa Clara Convention Center 5001 Great America Pkwy, Santa Clara, CA 📍 On-site participation is by invitation only. Travel and accommodation expenses will not be covered.\n\n...\n\n## AssemblyAI - Voice Agent Hackathon\n\n🌎 Online Hackathon | 💻 Month-long challenge | Dates: Sep 1–30, 2026 | 🏆 $10,000 Prize Pool ($5k cash + $5k in AAI credits) A month-long online challenge run by lablab.ai together with AssemblyAI, the Voice AI infrastructure company for builders. Every participant builds on AssemblyAI. You can join at any point — registration stays open for the whole build window, so you can start on day one or pick the project up halfway through and still submit. 🌍 Fully online hackathon. Join and build from anywhere in the world.\n\n## Alpaca AI Trading Agents Hackathon\n\n🌎 Online Hackathon | 💻 Dates: 28 August–4 September 2026 | 🏆 $6,000 Prize Pool Build AI trading agents on Alpaca — autonomous agents and trading apps using Alpaca's Trading API, MCP server and CLI. 🌍 Fully online hackathon. Join and build from anywhere in the world.\n\n...\n\n## AI Factory\n\n🌎 Online Hackathon | 📅 August 3–10, 2026| 💻 Powered by native.builder The official native.builder hackathon, hosted by NativelyAI and lablab.ai. Join founders, developers, designers, and builders to create real AI-native applications powered by native.builder: from idea to deployed product, fully in the cloud. 💻 This hackathon is fully online. No travel required.\n\n---",
+        "raw": {
+          "title": "2026 AI Hackathons | lablab.build",
+          "url": "https://lablab.build/ai-hackathons/year/2026",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "8a147deb041fb4a9",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Upcoming AI & Machine Learning Hackathons 2026",
+      "url": "https://www.hackathonradar.com/discover/c/ai/2026",
+      "snippet": "Upcoming AI & Machine Learning Hackathons 2026 # AI & Machine Learning Hackathons in 2026 Explore 5194 AI & machine learning hackathons in 2026. Hackathons focused on artificial intelligence, machine learning, deep learning, NLP, and generative AI. Hackathons 50 Avg Prize $9K Organizers 75 ### Friday, November 13, 2026 Past ### Hackathon Hollandse Luchten In Person Nov 13 – Nov 19, 2026 Hollandse Luchten (Province of Noord-Holland, Waag Futurelab, with RIVM, TNO, GGD) Haarlem, Netherlands Artificial Intelligence Climate Tech Social Impact ### Thursday, November 19, 2026 ### Srujana AI 2026 Hac...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 77.5,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知"
+      ],
+      "raw": {
+        "title": "Upcoming AI & Machine Learning Hackathons 2026",
+        "url": "https://www.hackathonradar.com/discover/c/ai/2026",
+        "author": null,
+        "published_at": null,
+        "text": "Upcoming AI & Machine Learning Hackathons 2026\n\n# AI & Machine Learning Hackathons in 2026\n\nExplore 5194 AI & machine learning hackathons in 2026. Hackathons focused on artificial intelligence, machine learning, deep learning, NLP, and generative AI.\n\nHackathons\n\n50\n\nAvg Prize\n\n$9K\n\nOrganizers\n\n75\n\n### Friday, November 13, 2026\n\nPast\n\n### Hackathon Hollandse Luchten\n\nIn Person\n\nNov 13 – Nov 19, 2026 Hollandse Luchten (Province of Noord-Holland, Waag Futurelab, with RIVM, TNO, GGD) Haarlem, Netherlands\n\nArtificial Intelligence Climate Tech Social Impact\n\n### Thursday, November 19, 2026\n\n### Srujana AI 2026 Hackathon (Batch 3)\n\nNov 3 – Nov 20, 2026 Biorad Medisys Private Limited Pune, India$300\n\nUndergraduate Engineering Students Fresher\n\n### Digital Twin Challenge 2026\n\nSep 17 – Nov 20, 2026 Happiest Health Online$2K\n\nHealthtech Data Science Artificial Intelligence\n\n### Making Sense - OxAI Hackathon\n\nNov 13 – Nov 20, 2026 Louisa Oxford, United Kingdom\n\nArtificial Intelligence Social Impact Data Science\n\n### Stanford vs Berkeley · The Big Hack Game · Up to $10,000 in Cash Prizes · Kickoffs on Both Campuses\n\nNov 15 – Nov 20, 2026 TatianaSF com Berkeley, United States$10K\n\n### Boat Hackathon Code Aboard The Historic Klamath\n\nNov 14 – Nov 21, 2026 Nikhil Radosevich San Francisco, United States\n\n### ODSC AI x NEBIUS | Hackathon\n\nOct 28 – Nov 21, 2026 ODSC AI Burlingame, United States\n\nArtificial Intelligence Developer Tools\n\n### ODSC AI x NEBIUS | Hackathon\n\nNov 18 – Nov 21, 2026 ODSC Team Burlingame, United States\n\n### Hack in Hills ’26\n\nSep 9 – Nov 21, 2026 Galgotias University (GU), Greater Noida Manali, India\n\n### Innovate in Windsor: Gemma on the Edge\n\n...\n\n### Build with Agora - BLR\n\n...\n\n### Lexsi - AI safety and alignment Hackathon\n\nOct 31 – Nov 21, 2026 Lexsi Labs Online\n\n### Agentic AI Hackathon\n\nNov 3 – Nov 21, 2026 Product Space Online$1K\n\n### AI Builder Hackathon\n\nNov 6 – Nov 21, 2026 Product Space Online$2K\n\n### Gen-AI Product Hackathon\n\nNov 6 – Nov 21, 2026 Product Space Online$2K\n\n### AI Product Buildathon\n\nNov 6 – Nov 21, 2026 Product Space Online$2K\n\n---",
+        "raw": {
+          "title": "Upcoming AI & Machine Learning Hackathons 2026",
+          "url": "https://www.hackathonradar.com/discover/c/ai/2026",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "b6f024ef5976fca8",
+      "engine": "web_search",
+      "engines": [
+        "multi_search",
+        "web_search"
+      ],
+      "engine_group": "web",
+      "query": "Devpost AI hackathon registration open 2026",
+      "title": "OpenAI Build Week: Join a global week of building with Codex - Devpost",
+      "url": "https://openai.devpost.com/",
+      "snippet": "2026年7月13日 · Meet the Devpost plugin The Devpost Hackathons plugin runs inside ChatGPT and includes everything you need to … 阅读更多",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "openai.devpost.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "bing_int",
+        "site-scan"
+      ],
+      "score": 77.2,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.82",
+        "发布时间未知",
+        "赛事平台来源",
+        "多引擎交叉命中：multi_search/web_search"
+      ],
+      "raw": null
+    },
+    {
+      "id": "1cb2f8569df931f8",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "alifiya-saifee/freshpin",
+      "url": "https://github.com/alifiya-saifee/freshpin",
+      "snippet": "Stale-answer detector that knows what depends on the answer. Tavily + Bifrost. Geek Room AI Global Hackathon 2026.",
+      "content": "Stale-answer detector that knows what depends on the answer. Tavily + Bifrost. Geek Room AI Global Hackathon 2026.",
+      "published_at": "2026-11-20T12:16:02Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 76.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "alifiya-saifee/freshpin",
+        "html_url": "https://github.com/alifiya-saifee/freshpin"
+      }
+    },
+    {
+      "id": "8bec0c7379fe47a3",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "boots59/park.ai",
+      "url": "https://github.com/boots59/park.ai",
+      "snippet": "Know where the open spaces are before you drive into the deck. A phone camera counts the cars, on the device. KSU AI Club Hackathon 2026 student prototype.",
+      "content": "Know where the open spaces are before you drive into the deck. A phone camera counts the cars, on the device. KSU AI Club Hackathon 2026 student prototype.",
+      "published_at": "2026-11-20T12:21:34Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github",
+        "computer-vision",
+        "hackathon",
+        "object-detection",
+        "parking",
+        "pwa",
+        "threejs"
+      ],
+      "score": 76.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "boots59/park.ai",
+        "html_url": "https://github.com/boots59/park.ai"
+      }
+    },
+    {
+      "id": "90dd3f1c0c04dd26",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "ramim167/tideway-mu-2026",
+      "url": "https://github.com/ramim167/tideway-mu-2026",
+      "snippet": "Tideway: AI cash-flow and fraud-safety copilot for Bangladeshi small businesses (MU CSE Fest 2026 AI Builders Hackathon, FinTech track)",
+      "content": "Tideway: AI cash-flow and fraud-safety copilot for Bangladeshi small businesses (MU CSE Fest 2026 AI Builders Hackathon, FinTech track)",
+      "published_at": "2026-11-19T20:27:36Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 76.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "ramim167/tideway-mu-2026",
+        "html_url": "https://github.com/ramim167/tideway-mu-2026"
+      }
+    },
+    {
+      "id": "257d2ba50252b980",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "itsaibarr/auditgym",
+      "url": "https://github.com/itsaibarr/auditgym",
+      "snippet": "AuditGym: reproducible RL environment for AI financial auditors (Genesis Hackathon FinTech 2026)",
+      "content": "AuditGym: reproducible RL environment for AI financial auditors (Genesis Hackathon FinTech 2026)",
+      "published_at": "2026-11-20T05:55:03Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 76.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "itsaibarr/auditgym",
+        "html_url": "https://github.com/itsaibarr/auditgym"
+      }
+    },
+    {
+      "id": "e562826ce2ead799",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Imperial AI Hackathon",
+      "url": "https://imperial-ai-hackathon.devpost.com/",
+      "snippet": "# Imperial AI Hackathon ### Imperial AI Society flagship hackathon: 450+ builders, five AI tracks, cash prizes plus partner credits. Sat 14 - Sun 15 Nov 2026, Huxley Building, Imperial College London. This hackathon has ended Find more hackathons ###### Who can participate - Above legal age of majority in country of residence - College students only - Companies/professional organizations excluded from participation - All countries/territories, excluding standard exceptions ... Nov 15, 2026 | Online | Public | | --- | --- | | 12 non-cash prizes | 240 participants | ... Imperial AI Hackathon is...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 76.3,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知"
+      ],
+      "raw": {
+        "title": "Imperial AI Hackathon",
+        "url": "https://imperial-ai-hackathon.devpost.com/",
+        "author": null,
+        "published_at": null,
+        "text": "# Imperial AI Hackathon\n\n### Imperial AI Society flagship hackathon: 450+ builders, five AI tracks, cash prizes plus partner credits. Sat 14 - Sun 15 Nov 2026, Huxley Building, Imperial College London.\n\nThis hackathon has ended\n\nFind more hackathons\n\n###### Who can participate\n\n- Above legal age of majority in country of residence\n- College students only\n- Companies/professional organizations excluded from participation\n- All countries/territories, excluding standard exceptions\n\n...\n\nNov 15, 2026\n\n| Online | Public |\n| --- | --- |\n| 12 non-cash prizes | 240 participants |\n\n...\n\nImperial AI Hackathon is Imperial AI Society's flagship hackathon and the finale of Imperial AI Week. Over one weekend, 450+ builders in teams of up to 4 take on five AI tracks, with Amazon voucher prizes and partner bounties.\n\nSaturday 14 - Sunday 15 November 2026\nHuxley Building, Imperial College London, South Kensington\n\nTracks\n\nPick one track. Every track pays £500 / £200 Amazon vouchers for 1st / 2nd, and you can go for any bounty inside it.\n\nAutonomous Agents (Headline Track)\n\nAgents that research, write and run code, and reliably finish real multi-step tasks.\n\nTrack winners - £500 / £200\n\n---",
+        "raw": {
+          "title": "Imperial AI Hackathon",
+          "url": "https://imperial-ai-hackathon.devpost.com/",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "bbc1f3fe75a2345a",
+      "engine": "agent_reach",
+      "engines": [
+        "agent_reach"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Lexsi - AI Safety and Alignment Hackathon | Lexsi.ai",
+      "url": "https://hackathon.lexsi.ai/",
+      "snippet": "# Lexsi - AI Safety and Alignment Hackathon By Lexsi Labs In collaboration with Cohere Labs and Hugging Face Nov 1, 2026 – Nov 24, 2026 ## Overview The Lexsi - AI Safety and Alignment Hackathon is organized by Lexsi Labs, in partnership with Cohere Labs and Hugging Face, to bring Lexsi Labs' open-source tools into the hands of builders working on real alignment, safety, data, interpretability, and tabular-modeling problems. ... The goal is to bring together a global community of builders to explore and extend a set of open-source post-training and interpretability toolkits. The hackathon is de...",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "Agent Reach·网页保底",
+      "source_type": "social",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "agent-reach",
+        "web"
+      ],
+      "score": 76.3,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间未知"
+      ],
+      "raw": {
+        "title": "Lexsi - AI Safety and Alignment Hackathon | Lexsi.ai",
+        "url": "https://hackathon.lexsi.ai/",
+        "author": null,
+        "published_at": null,
+        "text": "# Lexsi - AI Safety and Alignment Hackathon\n\nBy Lexsi Labs\n\nIn collaboration with Cohere Labs and Hugging Face\n\nNov 1, 2026 – Nov 24, 2026\n\n## Overview\n\nThe Lexsi - AI Safety and Alignment Hackathon is organized by Lexsi Labs, in partnership with Cohere Labs and Hugging Face, to bring Lexsi Labs' open-source tools into the hands of builders working on real alignment, safety, data, interpretability, and tabular-modeling problems.\n\n...\n\nThe goal is to bring together a global community of builders to explore and extend a set of open-source post-training and interpretability toolkits. The hackathon is designed to make Lexsi Labs' open-source model-lifecycle stack public, and to gather real-world feedback and feature requests from builders to improve it further.\n\nAbove all, the hackathon is about promoting AI safety and alignment: getting more builders hands-on with red teaming, safety repair, interpretability and evaluation, so that making models safer and better aligned becomes a routine part of how they are post-trained and shipped. Projects, datasets and findings stay open, so the wider community can build on them.\n\n...\n\n### HACKATHON HIGHLIGHTS\n\n- Runs fully online from Nov 1 to Nov 22, 2026: submit by Nov 15, 11:59 PM AoE.\n- Kickoff event on Oct 31: an introduction to the open-source stack, its key features and functionality.\n- Build with the open-source stack: AlignTune, AgentTune, AuditKIT, CuratorKIT, CircuitKIT, and SafeTune.\n- Three tracks: Fine-tuning and Data Curation, AI Red Teaming, Safety and Alignment, and Agentic Fine-tuning.\n- Use dense, open-weights LLMs from Cohere Labs.\n- Host your models, adapters, logs, and datasets on Hugging Face.\n- Up to 20 shortlisted teams, announced by Nov 16, get until Nov 22, 11:59 PM AoE to prove their thesis and submit a video presentation or slides for final judging.\n- Interview opportunities for standout candidates, for DevRel / Research Internship roles or Research Scientist / Engineer roles.",
+        "raw": {
+          "title": "Lexsi - AI Safety and Alignment Hackathon | Lexsi.ai",
+          "url": "https://hackathon.lexsi.ai/",
+          "published": "N/A",
+          "author": "N/A"
+        }
+      }
+    },
+    {
+      "id": "8ee23ace5ee165cc",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "frimpsjoek/veritas-ai",
+      "url": "https://github.com/frimpsjoek/veritas-ai",
+      "snippet": "Veritas AI: a research assistant you can check. OSI Hackathon 2026.",
+      "content": "Veritas AI: a research assistant you can check. OSI Hackathon 2026.",
+      "published_at": "2026-11-12T04:06:02Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 1.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 1.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 75.4,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近30天发布",
+        "互动数据 1"
+      ],
+      "raw": {
+        "full_name": "frimpsjoek/veritas-ai",
+        "html_url": "https://github.com/frimpsjoek/veritas-ai"
+      }
+    },
+    {
+      "id": "01b7be4631beb7c1",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "erwan-achat/habs-multimodal-ai",
+      "url": "https://github.com/erwan-achat/habs-multimodal-ai",
+      "snippet": "HABS Neuro AI Hackathon 2026 | Team 18 - Research on Multimodal AI",
+      "content": "HABS Neuro AI Hackathon 2026 | Team 18 - Research on Multimodal AI",
+      "published_at": "2026-11-03T22:15:13Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 74.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近30天发布"
+      ],
+      "raw": {
+        "full_name": "erwan-achat/habs-multimodal-ai",
+        "html_url": "https://github.com/erwan-achat/habs-multimodal-ai"
+      }
+    },
+    {
+      "id": "e596fb46d7b31cf1",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "meloervy/itfleet",
+      "url": "https://github.com/meloervy/itfleet",
+      "snippet": "ITFLEET: Intelligent Internal Device Asset Optimization for AppCon 2026 AI Hackathon Project of Team 10 Code Titans.",
+      "content": "ITFLEET: Intelligent Internal Device Asset Optimization for AppCon 2026 AI Hackathon Project of Team 10 Code Titans.",
+      "published_at": "2026-11-20T10:13:50Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 71.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 2"
+      ],
+      "raw": {
+        "full_name": "meloervy/itfleet",
+        "html_url": "https://github.com/meloervy/itfleet"
+      }
+    },
+    {
+      "id": "68dd3750d5967985",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "JohannSSK/CyberSyn",
+      "url": "https://github.com/JohannSSK/CyberSyn",
+      "snippet": "A self-hosted AI gateway that screens every prompt using local Machine Learning models + a DNS-Proxy logs analyzer for \"shadow AI detection\" (NETCOMPANY 2026 ATHENS HACKATHON PROJECT by CyberSyn ATTICA)",
+      "content": "A self-hosted AI gateway that screens every prompt using local Machine Learning models + a DNS-Proxy logs analyzer for \"shadow AI detection\" (NETCOMPANY 2026 ATHENS HACKATHON PROJECT by CyberSyn ATTICA)",
+      "published_at": "2026-11-19T21:30:38Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 1.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 1.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 71.4,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 1"
+      ],
+      "raw": {
+        "full_name": "JohannSSK/CyberSyn",
+        "html_url": "https://github.com/JohannSSK/CyberSyn"
+      }
+    },
+    {
+      "id": "0414ff42d784422e",
+      "engine": "devfolio",
+      "engines": [
+        "devfolio"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Hack For Tomorrow 2026",
+      "url": "https://devfolio.co/hackathons/hft2026",
+      "snippet": "Devfolio hackathon · HACKATHON",
+      "content": "",
+      "published_at": "2027-01-02T04:30:00+00:00",
+      "author": "",
+      "source": "Devfolio",
+      "source_type": "platform",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 436.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "ends:2027-01-03"
+      ],
+      "score": 71.1,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 436",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "name": "Hack For Tomorrow 2026",
+        "slug": "hft2026",
+        "starts_at": "2027-01-02T04:30:00+00:00",
+        "ends_at": "2027-01-03T04:30:00+00:00",
+        "is_online": false,
+        "participants_count": 436
+      }
+    },
+    {
+      "id": "c8b7516dc3f4076f",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "L1-star/qazaq-match",
+      "url": "https://github.com/L1-star/qazaq-match",
+      "snippet": "Qazaq Match — AI-сервис умного нетворкинга для IT-мероприятий (AI in Engineering Hackathon 2026, кейс Qazaq IT Community)",
+      "content": "Qazaq Match — AI-сервис умного нетворкинга для IT-мероприятий (AI in Engineering Hackathon 2026, кейс Qazaq IT Community)",
+      "published_at": "2026-11-20T10:16:08Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 70.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "L1-star/qazaq-match",
+        "html_url": "https://github.com/L1-star/qazaq-match"
+      }
+    },
+    {
+      "id": "eef8f23cbddfe14b",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "0xcvaliente/biology-antibodies-skills",
+      "url": "https://github.com/0xcvaliente/biology-antibodies-skills",
+      "snippet": "Claude Code skills for antibody work: binder and VHH design, engineering, sequence bioinformatics, literature search, reagent selection and therapeutics, plus a brief for the AI x Antibodies hackathon (Oslo, 14 Nov 2026).",
+      "content": "Claude Code skills for antibody work: binder and VHH design, engineering, sequence bioinformatics, literature search, reagent selection and therapeutics, plus a brief for the AI x Antibodies hackathon (Oslo, 14 Nov 2026).",
+      "published_at": "2026-11-20T12:19:08Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github",
+        "agent-skills",
+        "antibody",
+        "antibody-engineering",
+        "bioinformatics",
+        "claude-code",
+        "immunology",
+        "nanobody",
+        "protein-design"
+      ],
+      "score": 70.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "0xcvaliente/biology-antibodies-skills",
+        "html_url": "https://github.com/0xcvaliente/biology-antibodies-skills"
+      }
+    },
+    {
+      "id": "ebb8465452f3717a",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "emofya59-cyber/kitchen-party-os",
+      "url": "https://github.com/emofya59-cyber/kitchen-party-os",
+      "snippet": "Kitchen Party OS: AI event planner for Lusaka kitchen parties, weddings & corporates (Grok Bot Lusaka Hackathon 2026)",
+      "content": "Kitchen Party OS: AI event planner for Lusaka kitchen parties, weddings & corporates (Grok Bot Lusaka Hackathon 2026)",
+      "published_at": "2026-11-20T09:16:58Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 70.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "emofya59-cyber/kitchen-party-os",
+        "html_url": "https://github.com/emofya59-cyber/kitchen-party-os"
+      }
+    },
+    {
+      "id": "4ed6054e9518a136",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "jaywarfield/golden-gate-glory",
+      "url": "https://github.com/jaywarfield/golden-gate-glory",
+      "snippet": "IBM AI Hackathon 2026 with IBM Bob - Help veterans transition into civilian careers.",
+      "content": "IBM AI Hackathon 2026 with IBM Bob - Help veterans transition into civilian careers.",
+      "published_at": "2026-11-19T12:51:28Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 70.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "jaywarfield/golden-gate-glory",
+        "html_url": "https://github.com/jaywarfield/golden-gate-glory"
+      }
+    },
+    {
+      "id": "6377248fa18b92e7",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "hold-my-laptop/autonomous-cfo",
+      "url": "https://github.com/hold-my-laptop/autonomous-cfo",
+      "snippet": "AI CFO – Commerzbank Hackathon 2026 (Red Hat challenge)",
+      "content": "AI CFO – Commerzbank Hackathon 2026 (Red Hat challenge)",
+      "published_at": "2026-11-20T11:06:59Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 70.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "hold-my-laptop/autonomous-cfo",
+        "html_url": "https://github.com/hold-my-laptop/autonomous-cfo"
+      }
+    },
+    {
+      "id": "98a0f1a933137e78",
+      "engine": "devfolio",
+      "engines": [
+        "devfolio"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "CODEFESTTHON 2026",
+      "url": "https://devfolio.co/hackathons/codefestthon",
+      "snippet": "Devfolio hackathon · HACKATHON",
+      "content": "",
+      "published_at": "2026-11-21T18:30:00+00:00",
+      "author": "",
+      "source": "Devfolio",
+      "source_type": "platform",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 213.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "ends:2026-11-24"
+      ],
+      "score": 70.5,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 213",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "name": "CODEFESTTHON 2026",
+        "slug": "codefestthon",
+        "starts_at": "2026-11-21T18:30:00+00:00",
+        "ends_at": "2026-11-24T18:29:00+00:00",
+        "is_online": true,
+        "participants_count": 213
+      }
+    },
+    {
+      "id": "6e569a37505d56c4",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Ardelyo/halio",
+      "url": "https://github.com/Ardelyo/halio",
+      "snippet": "Halio: teman cek pesan keluarga Indonesia. Cek fakta berbantuan AI dengan sumber nyata, kartu dan suara ramah lansia, serta Radar tren hoaks anonim. Purwarupa Kartika Cyber Hackathon 2026 (Siber Sosial).",
+      "content": "Halio: teman cek pesan keluarga Indonesia. Cek fakta berbantuan AI dengan sumber nyata, kartu dan suara ramah lansia, serta Radar tren hoaks anonim. Purwarupa Kartika Cyber Hackathon 2026 (Siber Sosial).",
+      "published_at": "2026-11-12T15:20:21Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github",
+        "cybersecurity",
+        "fact-checking",
+        "fastapi",
+        "gemini",
+        "hackathon",
+        "hoax-detection",
+        "indonesia",
+        "k-anonymity"
+      ],
+      "score": 68.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近30天发布"
+      ],
+      "raw": {
+        "full_name": "Ardelyo/halio",
+        "html_url": "https://github.com/Ardelyo/halio"
+      }
+    },
+    {
+      "id": "47a7ec4f0c182a48",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "ROHITCRAFTSYT/readback",
+      "url": "https://github.com/ROHITCRAFTSYT/readback",
+      "snippet": "Catches readback errors between air traffic controllers and pilots, using Meta's Muse models. Meta Global AI Developer Hackathon 2026.",
+      "content": "Catches readback errors between air traffic controllers and pilots, using Meta's Muse models. Meta Global AI Developer Hackathon 2026.",
+      "published_at": "2026-11-12T15:47:41Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github",
+        "air-traffic-control",
+        "aviation-safety",
+        "hackathon",
+        "meta-ai",
+        "speech-recognition"
+      ],
+      "score": 68.8,
+      "score_reasons": [
+        "相关性命中 3/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近30天发布"
+      ],
+      "raw": {
+        "full_name": "ROHITCRAFTSYT/readback",
+        "html_url": "https://github.com/ROHITCRAFTSYT/readback"
+      }
+    },
+    {
+      "id": "1afe3f2435e2bf74",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Skillcef AI Chatbot Hackathon",
+      "url": "https://news.ycombinator.com/item?id=42206532",
+      "snippet": "Skillcef AI Chatbot Hackathon: Revolutionize Learning Through AI!<p>Event Details:<p>Kickoff: Dec 1, 2024 | Submit by: Dec 7, 2024 Demo Day: Dec 9, 2024 Tracks:<p>AI Coding Mentor, Soft Skills Coach, Industry-Specific Expert, Interactive Learning Tool Prizes:<p>1st: AU $400 + Digital Badge Special Awards: $100 each for Best AI Use, UX, Innovation Register Now: Skillcef Events (https://portal.skillcef.com/allevents)<p>Submit projects on GitHub. More details in the event!<p>Connect: eduanalyticks@gmail.com/sales@skillcef.com",
+      "content": "",
+      "published_at": "2024-11-21T17:26:11Z",
+      "author": "skillcef",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 1.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 1.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 66.9,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 1",
+        "含报名/截止信号"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "skillcef"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "Skillcef <em>AI</em> Chatbot <em>Hackathon</em>: Revolutionize Learning Through <em>AI</em>!<p>Event Details:<p>Kickoff: Dec 1, <em>202</em>4 | Submit by: Dec 7, <em>202</em>4\nDemo Day: Dec 9, <em>202</em>4\n Tracks:<p><em>AI</em> Coding Mentor, Soft Skills Coach, Industry-Specific Expert, Interactive Learning Tool\n Prizes:<p>1st: AU $400 + Digital Badge\nSpecial Awards: $100 each for Best <em>AI</em> Use, UX, Innovation\n Register Now: Skillcef Events (https://portal.skillcef.com/allevents)<p>Submit projects on GitHub. More details in the event!<p>Connect: eduanalyticks@gmail.com/sales@skillcef.com"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Skillcef <em>AI</em> Chatbot <em>Hackathon</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_skillcef",
+          "story_42206532",
+          "ask_hn"
+        ],
+        "author": "skillcef",
+        "children": [
+          42206608
+        ],
+        "created_at": "2024-11-21T17:26:11Z",
+        "created_at_i": 1732209971,
+        "num_comments": 0,
+        "objectID": "42206532",
+        "points": 1,
+        "story_id": 42206532,
+        "story_text": "Skillcef AI Chatbot Hackathon: Revolutionize Learning Through AI!<p>Event Details:<p>Kickoff: Dec 1, 2024 | Submit by: Dec 7, 2024\nDemo Day: Dec 9, 2024\n Tracks:<p>AI Coding Mentor, Soft Skills Coach, Industry-Specific Expert, Interactive Learning Tool\n Prizes:<p>1st: AU $400 + Digital Badge\nSpecial Awards: $100 each for Best AI Use, UX, Innovation\n Register Now: Skillcef Events (https:&#x2F;&#x2F;portal.skillcef.com&#x2F;allevents)<p>Submit projects on GitHub. More details in the event!<p>Connect: eduanalyticks@gmail.com&#x2F;sales@skillcef.com",
+        "title": "Skillcef AI Chatbot Hackathon",
+        "updated_at": "2024-11-21T17:35:16Z"
+      }
+    },
+    {
+      "id": "66f03d622dac0e64",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "OpenAI pulls out of math hackathon after open letter criticizing AI math 'slop'",
+      "url": "https://www.businessinsider.com/openai-caltech-ai-math-hackathon-backlash-anthropic-2026-9",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-09-11T16:02:11Z",
+      "author": "camelfarmer",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 7.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 7.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 66.6,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 7"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "camelfarmer"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "OpenAI pulls out of math <em>hackathon</em> after open letter criticizing <em>AI</em> math 'slop'"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "https://www.businessinsider.com/openai-caltech-<em>ai</em>-math-<em>hackathon</em>-backlash-anthropic-<em>2026</em>-9"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_camelfarmer",
+          "story_49660651"
+        ],
+        "author": "camelfarmer",
+        "children": [
+          49661999
+        ],
+        "created_at": "2026-09-11T16:02:11Z",
+        "created_at_i": 1789142531,
+        "num_comments": 0,
+        "objectID": "49660651",
+        "points": 7,
+        "story_id": 49660651,
+        "title": "OpenAI pulls out of math hackathon after open letter criticizing AI math 'slop'",
+        "updated_at": "2026-09-11T17:24:58Z",
+        "url": "https://www.businessinsider.com/openai-caltech-ai-math-hackathon-backlash-anthropic-2026-9"
+      }
+    },
+    {
+      "id": "c4df867f36c6cb81",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "COBOL dev won .NET hackathon with help from AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/15/cobol-dev-won-net-hackathon-with-help-from-ai-and-their-cio-loves-it/5296438",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-09-16T07:30:04Z",
+      "author": "theanonymousone",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 4.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 4.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 66.2,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 4"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "theanonymousone"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "COBOL dev won .NET <em>hackathon</em> with help from <em>AI</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "https://www.theregister.com/<em>ai</em>-and-ml/<em>2026</em>/09/15/cobol-dev-won-net-<em>hackathon</em>-with-help-from-<em>ai</em>-and-their-cio-loves-it/5296438"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_theanonymousone",
+          "story_49723159"
+        ],
+        "author": "theanonymousone",
+        "children": [
+          49723314
+        ],
+        "created_at": "2026-09-16T07:30:04Z",
+        "created_at_i": 1789543804,
+        "num_comments": 0,
+        "objectID": "49723159",
+        "points": 4,
+        "story_id": 49723159,
+        "title": "COBOL dev won .NET hackathon with help from AI",
+        "updated_at": "2026-09-18T04:50:19Z",
+        "url": "https://www.theregister.com/ai-and-ml/2026/09/15/cobol-dev-won-net-hackathon-with-help-from-ai-and-their-cio-loves-it/5296438"
+      }
+    },
+    {
+      "id": "9abffc12e7b8b03a",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Show HN: AI and Energy Efficiency Hackathon – 1 BTC to top team (SF, June 21)",
+      "url": "https://www.mara.com/hackathon-2025",
+      "snippet": "We’re organizing a one-day hackathon in San Francisco on June 21 focused on a specific technical challenge:<p>How can AI agents reduce energy waste in compute-heavy systems?<p>The rapid growth of AI workloads is creating a serious mismatch between performance and power. MARA wants to explore solutions that fix this problem.<p>This event is for engineers and builders who care about AI and energy. The hackathon is capped at 100 selected participants. The exact challenge will be revealed live on the day of the event.<p>Prize: 1 bitcoin<p>Location: San Francisco<p>Focus: AI, compute, and energy<p>...",
+      "content": "",
+      "published_at": "2025-05-13T18:50:15Z",
+      "author": "hickoryhashrate",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 10.0,
+        "comment": 4.0,
+        "share": 0.0,
+        "interaction": 14.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 63.7,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 14"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "hickoryhashrate"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "We’re organizing a one-day <em>hackathon</em> in San Francisco on June 21 focused on a specific technical challenge:<p>How can <em>AI</em> agents reduce energy waste in compute-heavy systems?<p>The rapid growth of <em>AI</em> workloads is creating a serious mismatch between performance and power. MARA wants to explore solutions that fix this problem.<p>This event is for engineers and builders who care about <em>AI</em> and energy. The <em>hackathon</em> is capped at 100 selected participants. The exact challenge will be revealed live on the day of the event.<p>Prize: 1 bitcoin<p>Location: San Francisco<p>Focus: <em>AI</em>, compute, and energy<p>Application: <a href=\"https://www.mara.com/hackathon-2025\" rel=\"nofollow\">https://www.mara.com/<em>hackathon</em>-<em>202</em>5</a><p>This is not a pitch or a party. It’s a real build day for people serious about <em>AI</em> infrastructure. I’m happy to answer questions here and would love any feedback."
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Show HN: <em>AI</em> and Energy Efficiency <em>Hackathon</em> – 1 BTC to top team (SF, June 21)"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "hackathon",
+              "2026"
+            ],
+            "value": "https://www.mara.com/<em>hackathon</em>-<em>202</em>5"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_hickoryhashrate",
+          "story_43976297",
+          "show_hn"
+        ],
+        "author": "hickoryhashrate",
+        "children": [
+          43976349,
+          43976540
+        ],
+        "created_at": "2025-05-13T18:50:15Z",
+        "created_at_i": 1747162215,
+        "num_comments": 4,
+        "objectID": "43976297",
+        "points": 10,
+        "story_id": 43976297,
+        "story_text": "We’re organizing a one-day hackathon in San Francisco on June 21 focused on a specific technical challenge:<p>How can AI agents reduce energy waste in compute-heavy systems?<p>The rapid growth of AI workloads is creating a serious mismatch between performance and power. MARA wants to explore solutions that fix this problem.<p>This event is for engineers and builders who care about AI and energy. The hackathon is capped at 100 selected participants. The exact challenge will be revealed live on the day of the event.<p>Prize: 1 bitcoin<p>Location: San Francisco<p>Focus: AI, compute, and energy<p>Application: <a href=\"https:&#x2F;&#x2F;www.mara.com&#x2F;hackathon-2025\" rel=\"nofollow\">https:&#x2F;&#x2F;www.mara.com&#x2F;hackathon-2025</a><p>This is not a pitch or a party. It’s a real build day for people serious about AI infrastructure. I’m happy to answer questions here and would love any feedback.",
+        "title": "Show HN: AI and Energy Efficiency Hackathon – 1 BTC to top team (SF, June 21)",
+        "updated_at": "2025-05-14T08:25:25Z",
+        "url": "https://www.mara.com/hackathon-2025"
+      }
+    },
+    {
+      "id": "6b082a83f4332917",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Andrej Karpathy's Keynote and Winner Pitches at UC Berkeley AI Hackathon 2024",
+      "url": "https://www.youtube.com/watch?v=tsTeEkzO9xc",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2024-07-04T12:59:25Z",
+      "author": "belter",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 3.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 62.5,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 3"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "belter"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "Andrej Karpathy's Keynote and Winner Pitches at UC Berkeley <em>AI</em> <em>Hackathon</em> <em>202</em>4"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://www.youtube.com/watch?v=tsTeEkzO9xc"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_belter",
+          "story_40874588"
+        ],
+        "author": "belter",
+        "children": [
+          40883299
+        ],
+        "created_at": "2024-07-04T12:59:25Z",
+        "created_at_i": 1720097965,
+        "num_comments": 1,
+        "objectID": "40874588",
+        "points": 2,
+        "story_id": 40874588,
+        "title": "Andrej Karpathy's Keynote and Winner Pitches at UC Berkeley AI Hackathon 2024",
+        "updated_at": "2024-09-20T17:25:43Z",
+        "url": "https://www.youtube.com/watch?v=tsTeEkzO9xc"
+      }
+    },
+    {
+      "id": "e19d22d75cb59050",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "Burning Heroes AI for Humanity Hackathon 2024",
+      "url": "https://www.burningheroes.com/2024/hackathon",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2024-03-29T18:17:29Z",
+      "author": "souvlakee",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 3.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 62.5,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 3"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "souvlakee"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "Burning Heroes <em>AI</em> for Humanity <em>Hackathon</em> <em>202</em>4"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "hackathon",
+              "2026"
+            ],
+            "value": "https://www.burningheroes.com/<em>202</em>4/<em>hackathon</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_souvlakee",
+          "story_39867261"
+        ],
+        "author": "souvlakee",
+        "children": [
+          39867263
+        ],
+        "created_at": "2024-03-29T18:17:29Z",
+        "created_at_i": 1711736249,
+        "num_comments": 1,
+        "objectID": "39867261",
+        "points": 2,
+        "story_id": 39867261,
+        "title": "Burning Heroes AI for Humanity Hackathon 2024",
+        "updated_at": "2024-09-20T16:43:52Z",
+        "url": "https://www.burningheroes.com/2024/hackathon"
+      }
+    },
+    {
+      "id": "c096db62a0a97cb0",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "UK government ‘hackathon’ to search for ways to use AI to cut asylum backlog",
+      "url": "https://www.theguardian.com/uk-news/2023/apr/29/government-hackathon-to-search-for-ways-to-use-ai-to-cut-asylum-backlog",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2023-04-29T11:31:08Z",
+      "author": "spzb",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 3.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 3.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 62.5,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 3"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "spzb"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "UK government ‘<em>hackathon</em>’ to search for ways to use <em>AI</em> to cut asylum backlog"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "https://www.theguardian.com/uk-news/<em>202</em>3/apr/29/government-<em>hackathon</em>-to-search-for-ways-to-use-<em>ai</em>-to-cut-asylum-backlog"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_spzb",
+          "story_35751964"
+        ],
+        "author": "spzb",
+        "created_at": "2023-04-29T11:31:08Z",
+        "created_at_i": 1682767868,
+        "num_comments": 0,
+        "objectID": "35751964",
+        "points": 3,
+        "story_id": 35751964,
+        "title": "UK government ‘hackathon’ to search for ways to use AI to cut asylum backlog",
+        "updated_at": "2024-09-20T14:00:32Z",
+        "url": "https://www.theguardian.com/uk-news/2023/apr/29/government-hackathon-to-search-for-ways-to-use-ai-to-cut-asylum-backlog"
+      }
+    },
+    {
+      "id": "ad5f92f79d6f6373",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon 2026",
+      "title": "$10k Prizes, NoCode AI Hackathon, July 8th",
+      "url": "https://news.ycombinator.com/item?id=36608545",
+      "snippet": "Hi HN! We are organizing the first-ever Virtual No-Code AI Hackathon this Saturday (July 8th) with $10k In Prizes<p>Hosted by welovenocode.com, this hackathon is specifically designed for No-Code experts who want to try their skills in AI<p>The event kicks off on July 8th 2023, at 10:00 AM PST and runs through July 9th, 2023, until 10:00 PM PST<p>Sign up here: https://lu.ma/nocodehackathon More info https://www.notion.so/welovenocode/NOCODE-AI-HACKATHON-July-23-30ebd8e3495a4ad8851271d44a961618?pvs=4",
+      "content": "",
+      "published_at": "2023-07-05T23:13:36Z",
+      "author": "kodjima33",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 1.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 62.3,
+      "score_reasons": [
+        "相关性命中 2/3 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 2"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "kodjima33"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon",
+              "2026"
+            ],
+            "value": "Hi HN!\nWe are organizing the first-ever Virtual No-Code <em>AI</em> <em>Hackathon</em> this Saturday (July 8th) with $10k In Prizes<p>Hosted by welovenocode.com, this <em>hackathon</em> is specifically designed for No-Code experts who want to try their skills in <em>AI</em><p>The event kicks off on July 8th <em>202</em>3, at 10:00 AM PST and runs through July 9th, <em>202</em>3, until 10:00 PM PST<p>Sign up here: https://lu.ma/nocodehackathon\nMore info\nhttps://www.notion.so/welovenocode/NOCODE-<em>AI</em>-<em>HACKATHON</em>-July-23-30ebd8e3495a4ad8851271d44a961618?pvs=4"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "$10k Prizes, NoCode <em>AI</em> <em>Hackathon</em>, July 8th"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_kodjima33",
+          "story_36608545",
+          "ask_hn"
+        ],
+        "author": "kodjima33",
+        "children": [
+          36608608
+        ],
+        "created_at": "2023-07-05T23:13:36Z",
+        "created_at_i": 1688598816,
+        "num_comments": 1,
+        "objectID": "36608545",
+        "points": 1,
+        "story_id": 36608545,
+        "story_text": "Hi HN!\nWe are organizing the first-ever Virtual No-Code AI Hackathon this Saturday (July 8th) with $10k In Prizes<p>Hosted by welovenocode.com, this hackathon is specifically designed for No-Code experts who want to try their skills in AI<p>The event kicks off on July 8th 2023, at 10:00 AM PST and runs through July 9th, 2023, until 10:00 PM PST<p>Sign up here: https:&#x2F;&#x2F;lu.ma&#x2F;nocodehackathon\nMore info\nhttps:&#x2F;&#x2F;www.notion.so&#x2F;welovenocode&#x2F;NOCODE-AI-HACKATHON-July-23-30ebd8e3495a4ad8851271d44a961618?pvs=4",
+        "title": "$10k Prizes, NoCode AI Hackathon, July 8th",
+        "updated_at": "2024-09-20T14:31:24Z"
+      }
+    }
+  ]
+}

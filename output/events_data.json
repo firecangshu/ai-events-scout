@@ -1,8 +1,9 @@
 {
-  "snap": "2026-11-19",
-  "title_date": "2026-11-19",
-  "today": "2026-11-19",
-  "identity": "A（社会人士/在职/个人开发者：保留所有人可报、社会组可报、企业·团队可报，剔除纯学生限定）",
+  "snap": "2026-11-20",
+  "title_date": "2026-11-20",
+  "today": "2026-11-20",
+  "identity": "C",
+  "note": "1.0.3 合并数据：11-19 快照 17 条（A 档核对）+ 11-14 核对并今日复验 200 的 8 条纯学生赛事（C 档最广口径）",
   "events": [
     {
       "name": "ECV2026 极智智能体开发者大赛",
@@ -334,6 +335,115 @@
         "智能体",
         "数据竞赛"
       ]
+    },
+    {
+      "name": "CrossPointX 2026 校际黑客松",
+      "scope": "国内",
+      "form": "混合（线上+线下）",
+      "eligibility": "纯学生限定（苏州大学/西交利物浦/昆山杜克在校生）",
+      "deadline": "2026-11-21（报名截止，11月21-22日比赛）",
+      "note": "西交利物浦×昆山杜克×苏大联合主办，约300名学生、必须4人组队、鼓励跨校跨专业，聚焦真实需求与产品原型",
+      "chip": "本周截止",
+      "regions": [
+        "华东",
+        "长三角"
+      ],
+      "link": "https://cpx2026.devpost.com/"
+    },
+    {
+      "name": "荣耀·英特尔 AI 智造创新赛",
+      "scope": "国内",
+      "form": "混合（线上+线下）",
+      "eligibility": "纯学生限定（全国高校在校生）",
+      "deadline": "2026-11-22（报名截止）",
+      "note": "荣耀与英特尔主办，YOYO Claw 端侧智能体开发赛道，总奖金 ¥13.5万",
+      "chip": "本周截止",
+      "regions": [
+        "华南",
+        "珠三角",
+        "大湾区"
+      ],
+      "link": "https://www.honor.com/cn/ai-smart-innovation-challenge/"
+    },
+    {
+      "name": "臺大×華南 金融科技黑客松",
+      "scope": "国内",
+      "form": "混合（12/1起线上开发·12/4臺大现场Demo评审）",
+      "eligibility": "纯学生限定（臺大一般生，不含在職生）",
+      "deadline": "2026-11-23（报名截止，报名期11/2起）",
+      "note": "臺大創創學程×華南銀行，三赛道（AI Banking Agents/Trust & Safety/Open Finance），总奖金 NT$180,000，每队至少1人须到场",
+      "chip": "本周截止",
+      "regions": [
+        "华东",
+        "中国台湾"
+      ],
+      "link": "https://luma.com/hccyc199"
+    },
+    {
+      "name": "高校大学生智能创新与计算机技能应用挑战赛·AI芯智能赛道",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "纯学生限定（高校本专科及研究生；其他人员需年满18周岁）",
+      "deadline": "2026-11-27（报名截止；第一场考试11/28-11/29）",
+      "note": "中国电子企业协会主办，50道客观题（单选/多选/判断）在线答题，考AI基础通识、大模型与生成式AI、AI伦理安全合规，证书由双单位盖章",
+      "chip": "",
+      "regions": [
+        "全国"
+      ],
+      "link": "https://m.saikr.com/vse/AI2026ZNCX"
+    },
+    {
+      "name": "Global AI Builder's Challenge",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）",
+      "deadline": "2026-11-28（提交截止）",
+      "note": "Refactor The World 主办，11/21-11/28 一周制全球学生线上赛，设总榜Top10与21个分类奖，提交需GitHub仓库+2-4分钟演示视频",
+      "chip": "",
+      "regions": [
+        "国外"
+      ],
+      "link": "https://global-ai-builders-challenge.devpost.com/"
+    },
+    {
+      "name": "2026 Qoder 高校创造力大赛",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "纯学生限定（全国在校大学生含港澳台本硕博；在职人员与高中生不可报）",
+      "deadline": "2026-11-30（报名、组队与作品发布同时截止，18:00）",
+      "note": "阿里云 Qoder×天池主办，用 Qoder 做能公开访问的完整应用并部署到 Qoder Sites，三赛道（StudyHack/LifeHack/Hack4Good），总奖金 ¥88,500；须完成天池实名与阿里云学生认证",
+      "chip": "",
+      "regions": [
+        "华东",
+        "长三角"
+      ],
+      "link": "https://tianchi.aliyun.com/competition/entrance/532536"
+    },
+    {
+      "name": "SpectoV National Hackathon 2026",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（印度在校学生；个人报名）",
+      "deadline": "2026-11-30（报名截止，名额250人先到先得）",
+      "note": "SpectoV 主办，微软/AMD 赞助，三赛道（AI/App开发/Web开发），奖金 ₹5.5万+ 现金与6个月带薪实习机会，报名费 ₹149",
+      "chip": "",
+      "regions": [
+        "国外"
+      ],
+      "link": "https://snh.hiringspectov.com/"
+    },
+    {
+      "name": "GenHacks",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）",
+      "deadline": "2026-12-26（提交截止，12/26 00:00 EST）",
+      "note": "Devpost 线上学生黑客松，11/1起开放、四赛道（医疗健康环保/机器人IoT/AI与智能体安全/Open），奖金 CAD 1,050 现金，支持个人或任意规模团队",
+      "chip": "",
+      "regions": [
+        "国外"
+      ],
+      "link": "https://genhacks-open.devpost.com/"
     }
   ],
   "dropped": [
@@ -372,34 +482,6 @@
     {
       "name": "PayPal AI Hackathon / Meta VR Start（Devpost）",
       "reason": "分别 11/12、11/18 已截止→剔除"
-    },
-    {
-      "name": "CrossPointX 2026 校际黑客松",
-      "reason": "纯学生限定（苏大/西浦/昆杜在校生）→身份档A剔除"
-    },
-    {
-      "name": "荣耀·英特尔 AI 智造创新赛",
-      "reason": "纯学生限定（全国高校在校生）→剔除"
-    },
-    {
-      "name": "臺大×華南 金融科技黑客松",
-      "reason": "纯学生限定（臺大一般生，不含在職生）→剔除"
-    },
-    {
-      "name": "高校大学生智能创新与计算机技能应用挑战赛·AI芯赛道",
-      "reason": "纯学生限定→剔除"
-    },
-    {
-      "name": "Global AI Builder's Challenge / GenHacks / AI OpenBuild",
-      "reason": "均为 Devpost 纯学生限定赛→剔除"
-    },
-    {
-      "name": "2026 Qoder 高校创造力大赛（天池532536）",
-      "reason": "纯学生限定（须阿里云学生认证，在职不可报）→剔除"
-    },
-    {
-      "name": "SpectoV National Hackathon 2026",
-      "reason": "纯学生限定（印度在校生）→剔除"
     },
     {
       "name": "FUTURE MAKERS 未来造物者·AI创新黑客松北京站",
