@@ -1,0 +1,2068 @@
+{
+  "meta": {
+    "query": "AI hackathon",
+    "generated_at": "2026-11-19T21:09:26+08:00",
+    "mode": "global_free",
+    "scope": "global",
+    "lang": "en",
+    "sources_requested": [
+      "gdelt",
+      "hn_algolia",
+      "arxiv",
+      "github",
+      "devfolio",
+      "site_scan",
+      "freesearch",
+      "agent_reach"
+    ],
+    "raw_count": 90,
+    "result_count": 30
+  },
+  "engines": [
+    {
+      "engine": "gdelt",
+      "label": "GDELT 全球新闻",
+      "status": "skipped",
+      "count": 0,
+      "message": "GDELT 暂无结果或触发 429 限流（共享 IP 常见），已跳过",
+      "cost_note": "",
+      "elapsed_ms": 27975
+    },
+    {
+      "engine": "hn_algolia",
+      "label": "Hacker News",
+      "status": "ok",
+      "count": 31,
+      "message": "Hacker News Algolia 公开 API",
+      "cost_note": "",
+      "elapsed_ms": 3734
+    },
+    {
+      "engine": "arxiv",
+      "label": "arXiv",
+      "status": "ok",
+      "count": 3,
+      "message": "arXiv Atom API",
+      "cost_note": "",
+      "elapsed_ms": 1502
+    },
+    {
+      "engine": "github",
+      "label": "GitHub",
+      "status": "ok",
+      "count": 20,
+      "message": "GitHub Search API（匿名限速，失败自动跳过）",
+      "cost_note": "",
+      "elapsed_ms": 5742
+    },
+    {
+      "engine": "devfolio",
+      "label": "Devfolio",
+      "status": "ok",
+      "count": 2,
+      "message": "Devfolio 公开页面，发现 20 个开放赛事，按 query 过滤后 2 个",
+      "cost_note": "",
+      "elapsed_ms": 3715
+    },
+    {
+      "engine": "site_scan",
+      "label": "站点扫描",
+      "status": "ok",
+      "count": 34,
+      "message": "site: 扫描 5 组查询（Devpost/Kaggle/MLH/Reddit/中文平台）",
+      "cost_note": "",
+      "elapsed_ms": 76366
+    },
+    {
+      "engine": "freesearch",
+      "label": "FreeSearch 本地服务",
+      "status": "skipped",
+      "count": 0,
+      "message": "未检测到本地 FreeSearch API（默认 127.0.0.1:8000）",
+      "cost_note": "",
+      "elapsed_ms": 0
+    },
+    {
+      "engine": "agent_reach",
+      "label": "Agent Reach",
+      "status": "skipped",
+      "count": 0,
+      "message": "未安装 Agent Reach CLI（可选，安装后可覆盖 X/Reddit/YouTube/B站/小红书等）",
+      "cost_note": "",
+      "elapsed_ms": 0
+    }
+  ],
+  "results": [
+    {
+      "id": "1fe68b254ba3a176",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Show HN: MetaArena – Compare & Rank 5,353 Meta Global AI Hackathon Projects",
+      "url": "https://meta-hackathon.com/",
+      "snippet": "Hey HN! Recently Meta wrapped up their Global Developer Hackathon (<a href=\"https://dev.meta.ai/events/global-hackathon\" rel=\"nofollow\">https://dev.meta.ai/events/global-hackathon</a>) which had a $1M prize pool (!!): 34K developers applied, 20K accepted, and over 5K projects were submitted.<p>With this crazy volume, it was infeasible to rank or even shortlist the best projects with human review. On the other hand, AI scoring against a rubric led to disappointing results.<p>In an effort to surface and spotlight the best projects, I built MetaArena (<a href=\"https://meta-hackathon.com/\" rel=\"no...",
+      "content": "",
+      "published_at": "2026-11-12T08:36:48Z",
+      "author": "ohong",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 93.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 2",
+        "含报名/截止信号",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "ohong"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Hey HN! Recently Meta wrapped up their Global Developer <em>Hackathon</em> (<a href=\"https://dev.meta.ai/events/global-hackathon\" rel=\"nofollow\">https://dev.meta.<em>ai</em>/events/global-<em>hackathon</em></a>) which had a $1M prize pool (!!): 34K developers applied, 20K accepted, and over 5K projects were submitted.<p>With this crazy volume, it was infeasible to rank or even shortlist the best projects with human review. On the other hand, <em>AI</em> scoring against a rubric led to disappointing results.<p>In an effort to surface and spotlight the best projects, I built MetaArena (<a href=\"https://meta-hackathon.com/\" rel=\"nofollow\">https://meta-<em>hackathon</em>.com/</a>). It compares just two projects head-to-head, let's you pick which you thought was the stronger project, and places them on a leaderboard using the same algo platforms like LLMArena and DesignArena use to rank <em>AI</em> models (Bradley-Terry).<p>Check it out, at the very least I hope you find a cool project or two here that inspire you. Lmk if you have any feedback on the arena/leaderboard!"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Show HN: MetaArena – Compare & Rank 5,353 Meta Global <em>AI</em> <em>Hackathon</em> Projects"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "hackathon"
+            ],
+            "value": "https://meta-<em>hackathon</em>.com/"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_ohong",
+          "story_50464559",
+          "show_hn"
+        ],
+        "author": "ohong",
+        "created_at": "2026-11-12T08:36:48Z",
+        "created_at_i": 1794472608,
+        "num_comments": 0,
+        "objectID": "50464559",
+        "points": 2,
+        "story_id": 50464559,
+        "story_text": "Hey HN! Recently Meta wrapped up their Global Developer Hackathon (<a href=\"https:&#x2F;&#x2F;dev.meta.ai&#x2F;events&#x2F;global-hackathon\" rel=\"nofollow\">https:&#x2F;&#x2F;dev.meta.ai&#x2F;events&#x2F;global-hackathon</a>) which had a $1M prize pool (!!): 34K developers applied, 20K accepted, and over 5K projects were submitted.<p>With this crazy volume, it was infeasible to rank or even shortlist the best projects with human review. On the other hand, AI scoring against a rubric led to disappointing results.<p>In an effort to surface and spotlight the best projects, I built MetaArena (<a href=\"https:&#x2F;&#x2F;meta-hackathon.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;meta-hackathon.com&#x2F;</a>). It compares just two projects head-to-head, let&#x27;s you pick which you thought was the stronger project, and places them on a leaderboard using the same algo platforms like LLMArena and DesignArena use to rank AI models (Bradley-Terry).<p>Check it out, at the very least I hope you find a cool project or two here that inspire you. Lmk if you have any feedback on the arena&#x2F;leaderboard!",
+        "title": "Show HN: MetaArena – Compare & Rank 5,353 Meta Global AI Hackathon Projects",
+        "updated_at": "2026-11-12T08:57:59Z",
+        "url": "https://meta-hackathon.com/"
+      }
+    },
+    {
+      "id": "ff0682dc72dc443d",
+      "engine": "devfolio",
+      "engines": [
+        "devfolio"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "ETHChiangmai & Longevity Hackathon 2026",
+      "url": "https://devfolio.co/hackathons/chiangmai",
+      "snippet": "Devfolio hackathon · HACKATHON",
+      "content": "",
+      "published_at": "2026-12-26T01:00:00+00:00",
+      "author": "",
+      "source": "Devfolio",
+      "source_type": "platform",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 43.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "devfolio",
+        "hackathon",
+        "ends:2026-12-27"
+      ],
+      "score": 90.3,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布",
+        "互动数据 43",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "name": "ETHChiangmai & Longevity Hackathon 2026",
+        "slug": "chiangmai",
+        "starts_at": "2026-12-26T01:00:00+00:00",
+        "ends_at": "2026-12-27T01:00:00+00:00",
+        "is_online": false,
+        "participants_count": 43
+      }
+    },
+    {
+      "id": "52e53b10692bd5cf",
+      "engine": "web_search",
+      "engines": [
+        "multi_search",
+        "web_search"
+      ],
+      "engine_group": "web",
+      "query": "Kaggle AI competition 2026",
+      "title": "Host an AI Competition or Hackathon | Kaggle",
+      "url": "https://www.kaggle.com/host",
+      "snippet": "Host your AI Competition on Kaggle Turn your toughest problem into a global competition and unlock state-of-the-art results from the … 阅读更多",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "www.kaggle.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "bing_int",
+        "site-scan"
+      ],
+      "score": 84.4,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.82",
+        "发布时间未知",
+        "赛事平台来源",
+        "多引擎交叉命中：multi_search/web_search"
+      ],
+      "raw": null
+    },
+    {
+      "id": "4f0b70a810ad482c",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "url": "https://duti.dev/blog/2026/spr/",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-08-17T07:28:43Z",
+      "author": "mindracer",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 57.0,
+        "comment": 62.0,
+        "share": 0.0,
+        "interaction": 119.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 84.2,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 119"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "mindracer"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "HackEurope 2026: A short rant on <em>AI</em> and <em>hackathons</em>"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://duti.dev/blog/2026/spr/"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_mindracer",
+          "story_49327490"
+        ],
+        "author": "mindracer",
+        "children": [
+          49327920,
+          49328072,
+          49328178,
+          49328201,
+          49328361,
+          49328376,
+          49328525,
+          49328594,
+          49328867,
+          49330016,
+          49331377
+        ],
+        "created_at": "2026-08-17T07:28:43Z",
+        "created_at_i": 1786951723,
+        "num_comments": 62,
+        "objectID": "49327490",
+        "points": 57,
+        "story_id": 49327490,
+        "title": "HackEurope 2026: A short rant on AI and hackathons",
+        "updated_at": "2026-09-03T21:37:19Z",
+        "url": "https://duti.dev/blog/2026/spr/"
+      }
+    },
+    {
+      "id": "47a3cdbb13d81f3b",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "AI hackathons on Devpost feel repetitive and somewhat random in judging",
+      "url": "https://gemini3.devpost.com",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-06-10T21:05:10Z",
+      "author": "noahnathan25",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 3.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 3.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 84.2,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 3",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "noahnathan25"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "<em>AI</em> <em>hackathons</em> on Devpost feel repetitive and somewhat random in judging"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://gemini3.devpost.com"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_noahnathan25",
+          "story_48482706"
+        ],
+        "author": "noahnathan25",
+        "children": [
+          48482707
+        ],
+        "created_at": "2026-06-10T21:05:10Z",
+        "created_at_i": 1781125510,
+        "num_comments": 0,
+        "objectID": "48482706",
+        "points": 3,
+        "story_id": 48482706,
+        "title": "AI hackathons on Devpost feel repetitive and somewhat random in judging",
+        "updated_at": "2026-06-12T00:47:50Z",
+        "url": "https://gemini3.devpost.com"
+      }
+    },
+    {
+      "id": "71ccbe53a8b70b8d",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "QVAC Hackathon I – Unleash Edge AI – Hackathon – DoraHacks",
+      "url": "https://dorahacks.io/hackathon/qvac-unleach-edge-ai-i/team",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-05-27T08:54:29Z",
+      "author": "janandonly",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 84.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 2",
+        "赛事平台来源"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "janandonly"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "QVAC <em>Hackathon</em> I – Unleash Edge <em>AI</em> – <em>Hackathon</em> – DoraHacks"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://dorahacks.io/<em>hackathon</em>/qvac-unleach-edge-<em>ai</em>-i/team"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_janandonly",
+          "story_48291518"
+        ],
+        "author": "janandonly",
+        "created_at": "2026-05-27T08:54:29Z",
+        "created_at_i": 1779872069,
+        "num_comments": 0,
+        "objectID": "48291518",
+        "points": 2,
+        "story_id": 48291518,
+        "title": "QVAC Hackathon I – Unleash Edge AI – Hackathon – DoraHacks",
+        "updated_at": "2026-05-27T09:36:27Z",
+        "url": "https://dorahacks.io/hackathon/qvac-unleach-edge-ai-i/team"
+      }
+    },
+    {
+      "id": "2044edc3368bbd95",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "iaac-maai/hackathon-team1-weld-anomaly",
+      "url": "https://github.com/iaac-maai/hackathon-team1-weld-anomaly",
+      "snippet": "NEURAL / LAB: an autoencoder trained only on sound welds finds defects in weld X-rays. Draw a defect and watch the network react, live in your browser. AI Methods I hackathon, IAAC MaAI, team 1",
+      "content": "NEURAL / LAB: an autoencoder trained only on sound welds finds defects in weld X-rays. Draw a defect and watch the network react, live in your browser. AI Methods I hackathon, IAAC MaAI, team 1",
+      "published_at": "2026-11-18T09:45:33Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 84.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "iaac-maai/hackathon-team1-weld-anomaly",
+        "html_url": "https://github.com/iaac-maai/hackathon-team1-weld-anomaly"
+      }
+    },
+    {
+      "id": "893c805f4d1eff03",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Qutalize/openAI_hackathon",
+      "url": "https://github.com/Qutalize/openAI_hackathon",
+      "snippet": "",
+      "content": "",
+      "published_at": "2026-11-12T08:12:11Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 84.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "Qutalize/openAI_hackathon",
+        "html_url": "https://github.com/Qutalize/openAI_hackathon"
+      }
+    },
+    {
+      "id": "9ebc57b06a754b62",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Prajwal2312/Agentic-AI-Hackathon",
+      "url": "https://github.com/Prajwal2312/Agentic-AI-Hackathon",
+      "snippet": "",
+      "content": "",
+      "published_at": "2026-11-19T12:38:26Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 84.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "Prajwal2312/Agentic-AI-Hackathon",
+        "html_url": "https://github.com/Prajwal2312/Agentic-AI-Hackathon"
+      }
+    },
+    {
+      "id": "41b89a2cc1304ef0",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Meta Employees Hate Zuckerberg's Plan for a Companywide AI Hackathon",
+      "url": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-06-15T22:15:18Z",
+      "author": "cdrnsf",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 12.0,
+        "comment": 2.0,
+        "share": 0.0,
+        "interaction": 14.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 82.4,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 14"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "cdrnsf"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Meta Employees Hate Zuckerberg's Plan for a Companywide <em>AI</em> <em>Hackathon</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "hackathon"
+            ],
+            "value": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-<em>hackathon</em>-idea/"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_cdrnsf",
+          "story_48547753"
+        ],
+        "author": "cdrnsf",
+        "children": [
+          48548127,
+          48548153
+        ],
+        "created_at": "2026-06-15T22:15:18Z",
+        "created_at_i": 1781561718,
+        "num_comments": 2,
+        "objectID": "48547753",
+        "points": 12,
+        "story_id": 48547753,
+        "title": "Meta Employees Hate Zuckerberg's Plan for a Companywide AI Hackathon",
+        "updated_at": "2026-06-16T19:36:51Z",
+        "url": "https://www.wired.com/story/meta-employees-absolutely-hate-mark-zuckerbergs-hackathon-idea/"
+      }
+    },
+    {
+      "id": "eb59c15e5f6982fc",
+      "engine": "multi_search",
+      "engines": [
+        "multi_search"
+      ],
+      "engine_group": "web",
+      "query": "Devpost AI hackathon registration open 2026",
+      "title": "PayPal AI Hackathon: Build what’s next with PayPal and AI - Devpost",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "snippet": "View schedule Dec 21, 2026 ... PayPal Managed by Devpost Low/No Code Machine Learning/AI Web",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "paypalaihackathon.devpost.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "bing_int",
+        "site-scan"
+      ],
+      "score": 81.7,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.76",
+        "发布时间未知",
+        "赛事平台来源"
+      ],
+      "raw": null
+    },
+    {
+      "id": "38b1e828e7372f80",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "How I accepted myself into Canada's largest AI hackathon",
+      "url": "https://fastcall.dev/posts/genai-genesis-firebase/",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2025-03-20T05:42:21Z",
+      "author": "fastcall",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 277.0,
+        "comment": 94.0,
+        "share": 0.0,
+        "interaction": 371.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 81.6,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 371"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "fastcall"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "How I accepted myself into Canada's largest <em>AI</em> <em>hackathon</em>"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://fastcall.dev/posts/genai-genesis-firebase/"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_fastcall",
+          "story_43420152"
+        ],
+        "author": "fastcall",
+        "children": [
+          43420379,
+          43420485,
+          43420514,
+          43420565,
+          43420595,
+          43420816,
+          43420859,
+          43421056,
+          43421220,
+          43422369,
+          43425069,
+          43425323,
+          43427292,
+          43427443,
+          43429329,
+          43430640,
+          43431148,
+          43431234
+        ],
+        "created_at": "2025-03-20T05:42:21Z",
+        "created_at_i": 1742449341,
+        "num_comments": 94,
+        "objectID": "43420152",
+        "points": 277,
+        "story_id": 43420152,
+        "title": "How I accepted myself into Canada's largest AI hackathon",
+        "updated_at": "2025-11-16T22:46:03Z",
+        "url": "https://fastcall.dev/posts/genai-genesis-firebase/"
+      }
+    },
+    {
+      "id": "97eb37f29b6aa594",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "OpenAIRE AI Hackathon",
+      "url": "https://www.openaire.eu/announcement-openaire-ai-hackathon",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-06-02T08:12:58Z",
+      "author": "T-A",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 81.0,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近半年发布",
+        "互动数据 2"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "T-A"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "OpenAIRE <em>AI</em> <em>Hackathon</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://www.openaire.eu/announcement-openaire-<em>ai</em>-<em>hackathon</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_T-A",
+          "story_48367388"
+        ],
+        "author": "T-A",
+        "created_at": "2026-06-02T08:12:58Z",
+        "created_at_i": 1780387978,
+        "num_comments": 0,
+        "objectID": "48367388",
+        "points": 2,
+        "story_id": 48367388,
+        "title": "OpenAIRE AI Hackathon",
+        "updated_at": "2026-06-02T12:13:07Z",
+        "url": "https://www.openaire.eu/announcement-openaire-ai-hackathon"
+      }
+    },
+    {
+      "id": "d698ff09f8707a0a",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Winner of the SF Mistral AI Hackathon: Automated Test Driven Prompting",
+      "url": "https://prompting.flyflow.dev",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2024-03-27T17:31:31Z",
+      "author": "carlcortright",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 95.0,
+        "comment": 15.0,
+        "share": 0.0,
+        "interaction": 110.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 80.6,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 110"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "carlcortright"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Winner of the SF Mistral <em>AI</em> <em>Hackathon</em>: Automated Test Driven Prompting"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://prompting.flyflow.dev"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_carlcortright",
+          "story_39842116"
+        ],
+        "author": "carlcortright",
+        "children": [
+          39842117,
+          39842257,
+          39842528,
+          39842553,
+          39842982,
+          39843033,
+          39843291,
+          39843500,
+          39844733
+        ],
+        "created_at": "2024-03-27T17:31:31Z",
+        "created_at_i": 1711560691,
+        "num_comments": 15,
+        "objectID": "39842116",
+        "points": 95,
+        "story_id": 39842116,
+        "title": "Winner of the SF Mistral AI Hackathon: Automated Test Driven Prompting",
+        "updated_at": "2025-01-14T07:13:54Z",
+        "url": "https://prompting.flyflow.dev"
+      }
+    },
+    {
+      "id": "c3dae33d94f335a1",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "PowerSync AI Hackathon: $8k+ in Prizes",
+      "url": "https://www.powersync.com/blog/powersync-ai-hackathon-8k-in-prizes",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-03-13T20:32:23Z",
+      "author": "devagr",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 6.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 7.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 80.3,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近一年发布",
+        "互动数据 7"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "devagr"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "PowerSync <em>AI</em> <em>Hackathon</em>: $8k+ in Prizes"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://www.powersync.com/blog/powersync-<em>ai</em>-<em>hackathon</em>-8k-in-prizes"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_devagr",
+          "story_47369467"
+        ],
+        "author": "devagr",
+        "children": [
+          47369886
+        ],
+        "created_at": "2026-03-13T20:32:23Z",
+        "created_at_i": 1773433943,
+        "num_comments": 1,
+        "objectID": "47369467",
+        "points": 6,
+        "story_id": 47369467,
+        "title": "PowerSync AI Hackathon: $8k+ in Prizes",
+        "updated_at": "2026-03-16T06:14:20Z",
+        "url": "https://www.powersync.com/blog/powersync-ai-hackathon-8k-in-prizes"
+      }
+    },
+    {
+      "id": "8371751690db83bb",
+      "engine": "web_search",
+      "engines": [
+        "multi_search",
+        "web_search"
+      ],
+      "engine_group": "web",
+      "query": "Kaggle AI competition 2026",
+      "title": "Kaggle : The World's AI Proving Ground",
+      "url": "https://www.kaggle.com/",
+      "snippet": "Kaggle is the leading platform for independent, crowdsourced AI evaluation. Our competitions, benchmarks, and hackathons attract … 阅读更多",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "www.kaggle.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "bing_int",
+        "site-scan"
+      ],
+      "score": 80.2,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.82",
+        "发布时间未知",
+        "赛事平台来源",
+        "多引擎交叉命中：multi_search/web_search"
+      ],
+      "raw": null
+    },
+    {
+      "id": "750d989c0ef63708",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "hyukjin0324/computer-science-hackathon-2026",
+      "url": "https://github.com/hyukjin0324/computer-science-hackathon-2026",
+      "snippet": "팀플을 대신 챙겨 주는 AI 에이전트 — 공고 분석·계획·GitHub 막힌 곳 감지, 승인한 일만 실행",
+      "content": "팀플을 대신 챙겨 주는 AI 에이전트 — 공고 분석·계획·GitHub 막힌 곳 감지, 승인한 일만 실행",
+      "published_at": "2026-11-16T08:21:50Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 79.8,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "hyukjin0324/computer-science-hackathon-2026",
+        "html_url": "https://github.com/hyukjin0324/computer-science-hackathon-2026"
+      }
+    },
+    {
+      "id": "d864a3b6be7df732",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "imprint-hash/aisle",
+      "url": "https://github.com/imprint-hash/aisle",
+      "snippet": "Ads that pay you, not bots. Brands pay to be considered by your AI shopping agent; Kite-registered agents only; sponsorship can't buy the choice. SERV Hackathon 02, Kite track.",
+      "content": "Ads that pay you, not bots. Brands pay to be considered by your AI shopping agent; Kite-registered agents only; sponsorship can't buy the choice. SERV Hackathon 02, Kite track.",
+      "published_at": "2026-11-15T12:05:11Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 79.8,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "imprint-hash/aisle",
+        "html_url": "https://github.com/imprint-hash/aisle"
+      }
+    },
+    {
+      "id": "b27f83b65f0ad091",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Suhai646/Aman-Bot",
+      "url": "https://github.com/Suhai646/Aman-Bot",
+      "snippet": "on assistant built for SCAMSHIELD AI Hackathon (Abu Dhabi Police x 42 Abu Dhabi).",
+      "content": "on assistant built for SCAMSHIELD AI Hackathon (Abu Dhabi Police x 42 Abu Dhabi).",
+      "published_at": "2026-11-18T19:58:50Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 79.8,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "Suhai646/Aman-Bot",
+        "html_url": "https://github.com/Suhai646/Aman-Bot"
+      }
+    },
+    {
+      "id": "790658afe8f74568",
+      "engine": "github",
+      "engines": [
+        "github"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "fadii1/SkillLoop-AI",
+      "url": "https://github.com/fadii1/SkillLoop-AI",
+      "snippet": "project for hackathon",
+      "content": "project for hackathon",
+      "published_at": "2026-11-18T05:48:32Z",
+      "author": "",
+      "source": "GitHub",
+      "source_type": "code",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "github"
+      ],
+      "score": 79.8,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近7天发布"
+      ],
+      "raw": {
+        "full_name": "fadii1/SkillLoop-AI",
+        "html_url": "https://github.com/fadii1/SkillLoop-AI"
+      }
+    },
+    {
+      "id": "143e4957a6723396",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Mistral AI Worldwide Hackathon 2026",
+      "url": "https://worldwide-hackathon.mistral.ai",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2026-02-10T15:13:03Z",
+      "author": "pretext",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 2.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 2.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 79.5,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "近一年发布",
+        "互动数据 2"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "pretext"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Mistral <em>AI</em> Worldwide <em>Hackathon</em> 2026"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://worldwide-<em>hackathon</em>.mistral.<em>ai</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_pretext",
+          "story_46960765"
+        ],
+        "author": "pretext",
+        "created_at": "2026-02-10T15:13:03Z",
+        "created_at_i": 1770736383,
+        "num_comments": 0,
+        "objectID": "46960765",
+        "points": 2,
+        "story_id": 46960765,
+        "title": "Mistral AI Worldwide Hackathon 2026",
+        "updated_at": "2026-03-18T15:00:15Z",
+        "url": "https://worldwide-hackathon.mistral.ai"
+      }
+    },
+    {
+      "id": "3bca3cf9ea8582b8",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Join Super AI Agent Hackathon at Stanford, Hosted by HuggingFace and Nexa AI",
+      "url": "https://twitter.com/nexa4ai/status/1803886846998610401",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2024-06-26T17:54:02Z",
+      "author": "alanzhuly",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 12.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 12.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.7,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 12"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "alanzhuly"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Join Super <em>AI</em> Agent <em>Hackathon</em> at Stanford, Hosted by HuggingFace and Nexa <em>AI</em>"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://twitter.com/nexa4ai/status/1803886846998610401"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_alanzhuly",
+          "story_40802561"
+        ],
+        "author": "alanzhuly",
+        "created_at": "2024-06-26T17:54:02Z",
+        "created_at_i": 1719424442,
+        "num_comments": 0,
+        "objectID": "40802561",
+        "points": 12,
+        "story_id": 40802561,
+        "title": "Join Super AI Agent Hackathon at Stanford, Hosted by HuggingFace and Nexa AI",
+        "updated_at": "2024-09-20T17:18:20Z",
+        "url": "https://twitter.com/nexa4ai/status/1803886846998610401"
+      }
+    },
+    {
+      "id": "47d7556adc5f2046",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Building for Healthcare: Our First AI Hackathon",
+      "url": "https://medium.com/doctolib/building-for-healthcare-our-first-ai-hackathon-aa9d10d1a250",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2024-07-22T09:10:43Z",
+      "author": "etherealG",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 11.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 11.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.7,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 11"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "etherealG"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Building for Healthcare: Our First <em>AI</em> <em>Hackathon</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://medium.com/doctolib/building-for-healthcare-our-first-<em>ai</em>-<em>hackathon</em>-aa9d10d1a250"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_etherealG",
+          "story_41032282"
+        ],
+        "author": "etherealG",
+        "created_at": "2024-07-22T09:10:43Z",
+        "created_at_i": 1721639443,
+        "num_comments": 0,
+        "objectID": "41032282",
+        "points": 11,
+        "story_id": 41032282,
+        "title": "Building for Healthcare: Our First AI Hackathon",
+        "updated_at": "2024-07-29T10:00:44Z",
+        "url": "https://medium.com/doctolib/building-for-healthcare-our-first-ai-hackathon-aa9d10d1a250"
+      }
+    },
+    {
+      "id": "211968f59409e11e",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Berkeley AI / LLM Hackathon – Quit Your Internship",
+      "url": "https://www.linkedin.com/posts/chontang_ai-startups-hackathon-activity-7069778910019817474-nrAG",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2023-06-01T00:47:12Z",
+      "author": "heech",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 5.0,
+        "comment": 2.0,
+        "share": 0.0,
+        "interaction": 7.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.3,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 7"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "heech"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Berkeley <em>AI</em> / LLM <em>Hackathon</em> – Quit Your Internship"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://www.linkedin.com/posts/chontang_<em>ai</em>-startups-<em>hackathon</em>-activity-7069778910019817474-nrAG"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_heech",
+          "story_36146396"
+        ],
+        "author": "heech",
+        "children": [
+          36146397,
+          36146473
+        ],
+        "created_at": "2023-06-01T00:47:12Z",
+        "created_at_i": 1685580432,
+        "num_comments": 2,
+        "objectID": "36146396",
+        "points": 5,
+        "story_id": 36146396,
+        "title": "Berkeley AI / LLM Hackathon – Quit Your Internship",
+        "updated_at": "2024-09-20T14:14:31Z",
+        "url": "https://www.linkedin.com/posts/chontang_ai-startups-hackathon-activity-7069778910019817474-nrAG"
+      }
+    },
+    {
+      "id": "47a6accc0e2e0139",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Accelerate SF – an AI hackathon to solve challenges in the city",
+      "url": "https://twitter.com/accelerate_sf",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2023-08-07T22:57:40Z",
+      "author": "accelerate_sf",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 5.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 6.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.2,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 6"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "accelerate_sf"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Accelerate SF – an <em>AI</em> <em>hackathon</em> to solve challenges in the city"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://twitter.com/accelerate_sf"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_accelerate_sf",
+          "story_37042083"
+        ],
+        "author": "accelerate_sf",
+        "children": [
+          37042113,
+          37042266
+        ],
+        "created_at": "2023-08-07T22:57:40Z",
+        "created_at_i": 1691449060,
+        "num_comments": 1,
+        "objectID": "37042083",
+        "points": 5,
+        "story_id": 37042083,
+        "title": "Accelerate SF – an AI hackathon to solve challenges in the city",
+        "updated_at": "2024-09-20T14:49:14Z",
+        "url": "https://twitter.com/accelerate_sf"
+      }
+    },
+    {
+      "id": "e44d7649aa0da7c4",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Edge AI online hackathon with 12.000USD first place prize – through November '25",
+      "url": "https://www.hackerearth.com/edge-impulse",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2025-10-30T18:27:22Z",
+      "author": "furtiman",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 5.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 5.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.1,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 5"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "furtiman"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Edge <em>AI</em> online <em>hackathon</em> with 12.000USD first place prize – through November '25"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://www.hackerearth.com/edge-impulse"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_furtiman",
+          "story_45763402"
+        ],
+        "author": "furtiman",
+        "created_at": "2025-10-30T18:27:22Z",
+        "created_at_i": 1761848842,
+        "num_comments": 0,
+        "objectID": "45763402",
+        "points": 5,
+        "story_id": 45763402,
+        "title": "Edge AI online hackathon with 12.000USD first place prize – through November '25",
+        "updated_at": "2026-03-05T22:58:45Z",
+        "url": "https://www.hackerearth.com/edge-impulse"
+      }
+    },
+    {
+      "id": "19fa9f6b8f33021e",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Show HN: phm.ai – MLK Day Hackathon - AI global health system",
+      "url": "https://us.medicare.dev",
+      "snippet": "MLK day got Trumped today so I spent the day hacking on a side project. The goal is to have agents simulate global health system activity and use patient (digital) twins to model care plans for people \"like us\" all over the world.<p>Creating Program: <a href=\"https://www.youtube.com/watch?v=eIaJZ13A0UQ\" rel=\"nofollow\">https://www.youtube.com/watch?v=eIaJZ13A0UQ</a><p>I am working on each location right now trying to setup some RAG based on each region and/or public health system.<p>The \"Hack\" for the day was just to see if I could get agents speaking in FHIR to work w/ i18n translations.<p>Ger...",
+      "content": "",
+      "published_at": "2025-01-21T03:15:50Z",
+      "author": "arionhardison",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 5.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 5.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.1,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 5"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "arionhardison"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai"
+            ],
+            "value": "MLK day got Trumped today so I spent the day hacking on a side project.  The goal is to have agents simulate global health system activity and use patient (digital) twins to model care plans for people &quot;like us&quot; all over the world.<p>Creating Program: <a href=\"https://www.youtube.com/watch?v=eIaJZ13A0UQ\" rel=\"nofollow\">https://www.youtube.com/watch?v=eIaJZ13A0UQ</a><p>I am working on each location right now trying to setup some RAG based on each region and/or public health system.<p>The &quot;Hack&quot; for the day was just to see if I could get agents speaking in FHIR to work w/ i18n translations.<p>German: <a href=\"https://gkv.dev\" rel=\"nofollow\">https://gkv.dev</a> - publishes programs to de.phm.<em>ai</em><p>Canadian: <a href=\"https://ca.medicare.dev\" rel=\"nofollow\">https://ca.medicare.dev</a> - publishes to ca.phm.<em>ai</em><p>Australian: <a href=\"https://au.medicare.dev\" rel=\"nofollow\">https://au.medicare.dev</a> - publishes to au.phm.<em>ai</em><p>USA: <a href=\"https://us.medicare.dev\" rel=\"nofollow\">https://us.medicare.dev</a> - publishes to us.phm.<em>ai</em><p>Swiss: <a href=\"https://foph.dev\" rel=\"nofollow\">https://foph.dev</a> - publishes to ch.phm.<em>ai</em><p>UK: <a href=\"https://uk.nhs.dev\" rel=\"nofollow\">https://uk.nhs.dev</a> - publishes to uk.phm.<em>ai</em><p>Click the flag to make a program specific to that region.<p>Didn't make as much progress as I would like to have but learned a lot more about RAG and started learning about MCP so good day overall.<p>- Thx for your time. - ACH"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Show HN: phm.<em>ai</em> – MLK Day <em>Hackathon</em> - <em>AI</em> global health system"
+          },
+          "url": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "https://us.medicare.dev"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_arionhardison",
+          "story_42776096",
+          "show_hn"
+        ],
+        "author": "arionhardison",
+        "children": [
+          42776567
+        ],
+        "created_at": "2025-01-21T03:15:50Z",
+        "created_at_i": 1737429350,
+        "num_comments": 0,
+        "objectID": "42776096",
+        "points": 5,
+        "story_id": 42776096,
+        "story_text": "MLK day got Trumped today so I spent the day hacking on a side project.  The goal is to have agents simulate global health system activity and use patient (digital) twins to model care plans for people &quot;like us&quot; all over the world.<p>Creating Program: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=eIaJZ13A0UQ\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=eIaJZ13A0UQ</a><p>I am working on each location right now trying to setup some RAG based on each region and&#x2F;or public health system.<p>The &quot;Hack&quot; for the day was just to see if I could get agents speaking in FHIR to work w&#x2F; i18n translations.<p>German: <a href=\"https:&#x2F;&#x2F;gkv.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;gkv.dev</a> - publishes programs to de.phm.ai<p>Canadian: <a href=\"https:&#x2F;&#x2F;ca.medicare.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;ca.medicare.dev</a> - publishes to ca.phm.ai<p>Australian: <a href=\"https:&#x2F;&#x2F;au.medicare.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;au.medicare.dev</a> - publishes to au.phm.ai<p>USA: <a href=\"https:&#x2F;&#x2F;us.medicare.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;us.medicare.dev</a> - publishes to us.phm.ai<p>Swiss: <a href=\"https:&#x2F;&#x2F;foph.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;foph.dev</a> - publishes to ch.phm.ai<p>UK: <a href=\"https:&#x2F;&#x2F;uk.nhs.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;uk.nhs.dev</a> - publishes to uk.phm.ai<p>Click the flag to make a program specific to that region.<p>Didn&#x27;t make as much progress as I would like to have but learned a lot more about RAG and started learning about MCP so good day overall.<p>- Thx for your time. - ACH",
+        "title": "Show HN: phm.ai – MLK Day Hackathon - AI global health system",
+        "updated_at": "2025-01-21T04:18:03Z",
+        "url": "https://us.medicare.dev"
+      }
+    },
+    {
+      "id": "1ce59e5ec0f6db23",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Getting past the AI hackathon cold start problem – Remote Cluster Auto-setup",
+      "url": "https://medium.com/@caroline_59780/getting-past-the-ai-hackathon-cold-start-problem-remote-cluster-auto-setup-using-runhouse-%EF%B8%8F-a73f0b28d8d3",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2023-04-14T21:12:13Z",
+      "author": "donnygreenberg",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 4.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 5.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 78.1,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 5"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "donnygreenberg"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Getting past the <em>AI</em> <em>hackathon</em> cold start problem – Remote Cluster Auto-setup"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "https://medium.com/@caroline_59780/getting-past-the-<em>ai</em>-<em>hackathon</em>-cold-start-problem-remote-cluster-auto-setup-using-runhouse-%EF%B8%8F-a73f0b28d8d3"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_donnygreenberg",
+          "story_35574831"
+        ],
+        "author": "donnygreenberg",
+        "children": [
+          35575633
+        ],
+        "created_at": "2023-04-14T21:12:13Z",
+        "created_at_i": 1681506733,
+        "num_comments": 1,
+        "objectID": "35574831",
+        "points": 4,
+        "story_id": 35574831,
+        "title": "Getting past the AI hackathon cold start problem – Remote Cluster Auto-setup",
+        "updated_at": "2024-09-20T13:53:04Z",
+        "url": "https://medium.com/@caroline_59780/getting-past-the-ai-hackathon-cold-start-problem-remote-cluster-auto-setup-using-runhouse-%EF%B8%8F-a73f0b28d8d3"
+      }
+    },
+    {
+      "id": "f3f93e4685017daa",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "MeetScribe is the winning team for Global AI Hackathon",
+      "url": "http://mailchi.mp/9e439594cf8f/global-ai-hackathon-important-announcements-2165661?e=4a20a43b8a",
+      "snippet": "Hacker News 讨论",
+      "content": "",
+      "published_at": "2017-07-08T03:50:23Z",
+      "author": "danielwalnut",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 4.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 4.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 77.9,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 4"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "danielwalnut"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "MeetScribe is the winning team for Global <em>AI</em> <em>Hackathon</em>"
+          },
+          "url": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "http://mailchi.mp/9e439594cf8f/global-<em>ai</em>-<em>hackathon</em>-important-announcements-2165661?e=4a20a43b8a"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_danielwalnut",
+          "story_14723970"
+        ],
+        "author": "danielwalnut",
+        "created_at": "2017-07-08T03:50:23Z",
+        "created_at_i": 1499485823,
+        "num_comments": 0,
+        "objectID": "14723970",
+        "points": 4,
+        "story_id": 14723970,
+        "title": "MeetScribe is the winning team for Global AI Hackathon",
+        "updated_at": "2024-09-20T01:01:14Z",
+        "url": "http://mailchi.mp/9e439594cf8f/global-ai-hackathon-important-announcements-2165661?e=4a20a43b8a"
+      }
+    },
+    {
+      "id": "e64fbed5016d8a53",
+      "engine": "hn_algolia",
+      "engines": [
+        "hn_algolia"
+      ],
+      "engine_group": "web",
+      "query": "AI hackathon",
+      "title": "Show HN: We ran a F{AI}R hackathon",
+      "url": "https://news.ycombinator.com/item?id=45420000",
+      "snippet": "Keen to hear your feedback to a series of events we just ran in support of the launch of a sovereign AI platform, thoughts on the future of civic hacktivism, links to your own posts. In my blog I do some armchair philisophising (Apertus-enhanced, of course) before parsing the results from each of a dozen challenges. See <a href=\"https://log.alets.ch/111/\" rel=\"nofollow\">https://log.alets.ch/111/</a> or view the source data at <a href=\"https://siliconlovefield.bb.dribdat.cc/\" rel=\"nofollow\">https://siliconlovefield.bb.dribdat.cc/</a>",
+      "content": "",
+      "published_at": "2025-09-29T23:12:24Z",
+      "author": "seism",
+      "source": "Hacker News",
+      "source_type": "community",
+      "metrics": {
+        "read": 0.0,
+        "like": 3.0,
+        "comment": 1.0,
+        "share": 0.0,
+        "interaction": 4.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "hn",
+        "tech-community"
+      ],
+      "score": 77.9,
+      "score_reasons": [
+        "相关性命中 2/2 个查询词；命中业务加权词",
+        "引擎可信度 0.70",
+        "发布时间较早",
+        "互动数据 4"
+      ],
+      "raw": {
+        "_highlightResult": {
+          "author": {
+            "matchLevel": "none",
+            "matchedWords": [],
+            "value": "seism"
+          },
+          "story_text": {
+            "fullyHighlighted": false,
+            "matchLevel": "partial",
+            "matchedWords": [
+              "ai"
+            ],
+            "value": "Keen to hear your feedback to a series of events we just ran in support of the launch of a sovereign <em>AI</em> platform, thoughts on the future of civic hacktivism, links to your own posts. In my blog I do some armchair philisophising (Apertus-enhanced, of course) before parsing the results from each of a dozen challenges. See <a href=\"https://log.alets.ch/111/\" rel=\"nofollow\">https://log.alets.ch/111/</a> or view the source data at <a href=\"https://siliconlovefield.bb.dribdat.cc/\" rel=\"nofollow\">https://siliconlovefield.bb.dribdat.cc/</a>"
+          },
+          "title": {
+            "fullyHighlighted": false,
+            "matchLevel": "full",
+            "matchedWords": [
+              "ai",
+              "hackathon"
+            ],
+            "value": "Show HN: We ran a F{<em>AI</em>}R <em>hackathon</em>"
+          }
+        },
+        "_tags": [
+          "story",
+          "author_seism",
+          "story_45420000",
+          "show_hn"
+        ],
+        "author": "seism",
+        "children": [
+          45423197
+        ],
+        "created_at": "2025-09-29T23:12:24Z",
+        "created_at_i": 1759187544,
+        "num_comments": 1,
+        "objectID": "45420000",
+        "points": 3,
+        "story_id": 45420000,
+        "story_text": "Keen to hear your feedback to a series of events we just ran in support of the launch of a sovereign AI platform, thoughts on the future of civic hacktivism, links to your own posts. In my blog I do some armchair philisophising (Apertus-enhanced, of course) before parsing the results from each of a dozen challenges. See <a href=\"https:&#x2F;&#x2F;log.alets.ch&#x2F;111&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;log.alets.ch&#x2F;111&#x2F;</a> or view the source data at <a href=\"https:&#x2F;&#x2F;siliconlovefield.bb.dribdat.cc&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;siliconlovefield.bb.dribdat.cc&#x2F;</a>",
+        "title": "Show HN: We ran a F{AI}R hackathon",
+        "updated_at": "2026-03-05T22:46:41Z"
+      }
+    }
+  ]
+}

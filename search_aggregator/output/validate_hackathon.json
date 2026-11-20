@@ -1,0 +1,537 @@
+{
+  "meta": {
+    "query": "AI 黑客松 报名 2026",
+    "generated_at": "2026-11-19T20:41:17+08:00",
+    "mode": "balanced",
+    "scope": "auto",
+    "lang": "zh",
+    "intents": [
+      "event"
+    ],
+    "engines_requested": [
+      "web_search",
+      "multi_search",
+      "wechat_article_search"
+    ],
+    "allow_paid": false,
+    "raw_count": 47,
+    "result_count": 12
+  },
+  "engines": [
+    {
+      "engine": "web_search",
+      "label": "Web Search",
+      "status": "ok",
+      "count": 7,
+      "message": "web-search 脚本不可用，已用内置 stdlib fallback",
+      "cost_note": "",
+      "elapsed_ms": 1316
+    },
+    {
+      "engine": "multi_search",
+      "label": "Multi Search",
+      "status": "ok",
+      "count": 28,
+      "message": "扇出 5 个网页搜索引擎",
+      "cost_note": "",
+      "elapsed_ms": 3465
+    },
+    {
+      "engine": "wechat_article_search",
+      "label": "公众号搜索",
+      "status": "ok",
+      "count": 12,
+      "message": "",
+      "cost_note": "",
+      "elapsed_ms": 6361
+    }
+  ],
+  "results": [
+    {
+      "id": "21faee971517450d",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "AI+医疗黑客松第一届大赛开放报名",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9EZcZ7Pfay0fkoM-olv0FtmJlH2_BoNl5FjmWomI3Sq4KHlQacH6ECeZYuUgP7QFg4BJqe1eusC9J900JR5092Tu61x88odjxO2QyqBbSWzgkaAi_crZ6DiPLNLfhGi_r9FqiCqastJelsri5FlJVYq_6Bo8I3OuS3ptbSVkB82Rr1dbZWbKUeQ..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+      "snippet": "AI+医疗黑客松第一届大赛• 联合发起:复旦MBA医疗健康协会 ... 报名截止:2026年12月6日(周日)23:59两天安排• 第一天:上...",
+      "content": "AI+医疗黑客松第一届大赛• 联合发起:复旦MBA医疗健康协会 ... 报名截止:2026年12月6日(周日)23:59两天安排• 第一天:上...",
+      "published_at": "2026-11-19 07:01:00",
+      "author": "FDSMhealthclub",
+      "source": "FDSMhealthclub",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 81.5,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近7天发布"
+      ],
+      "raw": {
+        "title": "AI+医疗黑客松第一届大赛开放报名",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9EZcZ7Pfay0fkoM-olv0FtmJlH2_BoNl5FjmWomI3Sq4KHlQacH6ECeZYuUgP7QFg4BJqe1eusC9J900JR5092Tu61x88odjxO2QyqBbSWzgkaAi_crZ6DiPLNLfhGi_r9FqiCqastJelsri5FlJVYq_6Bo8I3OuS3ptbSVkB82Rr1dbZWbKUeQ..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+        "summary": "AI+医疗黑客松第一届大赛&bull; 联合发起:复旦MBA医疗健康协会 ... 报名截止:2026年12月6日(周日)23:59两天安排&bull; 第一天:上...",
+        "datetime": "2026-11-19 07:01:00",
+        "date_text": "2026年11月19日",
+        "date_description": "13小时前",
+        "source": "FDSMhealthclub"
+      }
+    },
+    {
+      "id": "3bff96571a6b2082",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "支付宝 20 万 AI 黑客松:报名 12 月 1 号截止,但真正的时间只有 24 天",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9AxUU6DubLzebrJPqXuoKSzUSUWbORqB1-zgBaFT6eJLy3iMdqLnzo0k5ixBVU0ym1u-elXysQ4VCAEJglJDMTV1QLf8KaQAdt9yjZ9LbtY0HglN6TOw410VjkOE-5d5GRzwjtv8rPqWoLVw8BrMk5OsjD7ZuOvA_CTarqEahOL2fxjh3za6jWA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+      "snippet": "2026,副标题三个词:Pay for AI.Slogan 更直接:Build & Bill,... AI 付黑客松官网及官方发布材料,赛程、规则与权益以官网最终公...",
+      "content": "2026,副标题三个词:Pay for AI.Slogan 更直接:Build & Bill,... AI 付黑客松官网及官方发布材料,赛程、规则与权益以官网最终公...",
+      "published_at": "2026-11-07 16:02:58",
+      "author": "广工应数研究生会",
+      "source": "广工应数研究生会",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 79.5,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "支付宝 20 万 AI 黑客松:报名 12 月 1 号截止,但真正的时间只有 24 天",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9AxUU6DubLzebrJPqXuoKSzUSUWbORqB1-zgBaFT6eJLy3iMdqLnzo0k5ixBVU0ym1u-elXysQ4VCAEJglJDMTV1QLf8KaQAdt9yjZ9LbtY0HglN6TOw410VjkOE-5d5GRzwjtv8rPqWoLVw8BrMk5OsjD7ZuOvA_CTarqEahOL2fxjh3za6jWA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+        "summary": "2026,副标题三个词:Pay for AI.Slogan 更直接:Build & Bill,... AI 付黑客松官网及官方发布材料,赛程、规则与权益以官网最终公...",
+        "datetime": "2026-11-07 16:02:58",
+        "date_text": "2026年11月07日",
+        "date_description": "12天前",
+        "source": "广工应数研究生会"
+      }
+    },
+    {
+      "id": "4e318c55e9d006c2",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "报名|马来西亚黑客松!从真实问题到AI产品",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd97_gGEJi9QD295aewtXov0A_KnNvFuOSMQCS4oUFTjUdO9suRCye24f-9jKJxShwq5lqEfgzNj4yte7ynp25fl46k6BiVyA2sRsqK7o2VxvMbKULhRLKACoTL4MmP9gHtjq7Rz2lzhqCIOJMBzpySjiuMpJcCCsJ5ngZCV6AKn0PzAjcIGepUqA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+      "snippet": "AI & MVP 黑客松 2026,将在吉隆坡举行[咖啡R],邀请不同专业的... 报名见海报为马来西亚而创,面向世界而生!#马来西亚 #吉隆坡 ...",
+      "content": "AI & MVP 黑客松 2026,将在吉隆坡举行[咖啡R],邀请不同专业的... 报名见海报为马来西亚而创,面向世界而生!#马来西亚 #吉隆坡 ...",
+      "published_at": "2026-11-10 13:05:25",
+      "author": "ATOX Global",
+      "source": "ATOX Global",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 79.5,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "报名|马来西亚黑客松!从真实问题到AI产品",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd97_gGEJi9QD295aewtXov0A_KnNvFuOSMQCS4oUFTjUdO9suRCye24f-9jKJxShwq5lqEfgzNj4yte7ynp25fl46k6BiVyA2sRsqK7o2VxvMbKULhRLKACoTL4MmP9gHtjq7Rz2lzhqCIOJMBzpySjiuMpJcCCsJ5ngZCV6AKn0PzAjcIGepUqA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+        "summary": "AI & MVP 黑客松 2026,将在吉隆坡举行[咖啡R],邀请不同专业的... 报名见海报为马来西亚而创,面向世界而生!#马来西亚 #吉隆坡 ...",
+        "datetime": "2026-11-10 13:05:25",
+        "date_text": "2026年11月10日",
+        "date_description": "9天前",
+        "source": "ATOX Global"
+      }
+    },
+    {
+      "id": "27ddaa4eb8a7dc74",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "它是最想让你赚到钱的黑客松:支付宝AI付PAYATHON 2026",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9KbV_uPXso3NotWaPS72DL9JvLft69qOOQhj2NkGg_6Fn1BhkDT1APXHCOudVkoC8rrc73WuHvJXHKS9y5x4KkVl2D7Ik69TgZViAdOpd5WCNLORKBYA-DL9brJgeMu-1ih0yarfc7jWqAMywdJRWj344qALtScaQ5PmMGz6hwsQ5eBgmN3LoYQ..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "2026,AI 付的年度黑客松.官方给它的定义是,国内聚焦 AI 产品商业化的实战黑客松.总奖池二十万,五条赛道,报名到十二月一日截...",
+      "content": "2026,AI 付的年度黑客松.官方给它的定义是,国内聚焦 AI 产品商业化的实战黑客松.总奖池二十万,五条赛道,报名到十二月一日截...",
+      "published_at": "2026-11-08 20:18:03",
+      "author": "社交名流UCL的AI小铺",
+      "source": "社交名流UCL的AI小铺",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 79.5,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "它是最想让你赚到钱的黑客松:支付宝AI付PAYATHON 2026",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9KbV_uPXso3NotWaPS72DL9JvLft69qOOQhj2NkGg_6Fn1BhkDT1APXHCOudVkoC8rrc73WuHvJXHKS9y5x4KkVl2D7Ik69TgZViAdOpd5WCNLORKBYA-DL9brJgeMu-1ih0yarfc7jWqAMywdJRWj344qALtScaQ5PmMGz6hwsQ5eBgmN3LoYQ..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "2026,AI 付的年度黑客松.官方给它的定义是,国内聚焦 AI 产品商业化的实战黑客松.总奖池二十万,五条赛道,报名到十二月一日截...",
+        "datetime": "2026-11-08 20:18:03",
+        "date_text": "2026年11月08日",
+        "date_description": "11天前",
+        "source": "社交名流UCL的AI小铺"
+      }
+    },
+    {
+      "id": "c514bfcf900a57e5",
+      "engine": "multi_search",
+      "engines": [
+        "multi_search"
+      ],
+      "engine_group": "web",
+      "query": "AI 黑客松 报名 2026",
+      "title": "报名 开启! 2026 大学生 AI 艺术季x生数Vidu AI 影像 黑客松 等您来——_腾讯新闻",
+      "url": "https://www.so.com/link?m=eWnyFNQ5pcANUCtejyrtAPZ1tpZHM5hGRwhuDTdZbA99acTvp50EQpXcjTcDcWZ7puadnAVAvz9BNHx%2BcqHqoii4pEVyEqPB9E%2FzDJz2494Aca65WuPxbXsfD0sK%2BvDZ3V2IwWzSpg92VnrUZuGctjMXDtQlkVbA81alF%2BexeqER6MdZeL4UmChw%2Bo9eedhI6Eo2J4blhb9lwj3phlaQnOBr1o8mqjVeo9ONdDSmE4YU%2B2AV%2FZsnOpAhNaiDuwX9aptAdoM2LRPufCyzoGkS1XBw0dWN7ftfebTSHLXS7Yp0%3D",
+      "snippet": "",
+      "content": "",
+      "published_at": "",
+      "author": "",
+      "source": "www.so.com",
+      "source_type": "web",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [
+        "so360"
+      ],
+      "score": 78.7,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.76",
+        "发布时间未知"
+      ],
+      "raw": null
+    },
+    {
+      "id": "98bc6043c5869e51",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "倒计时3天|北京AI黑客松,11月20日集结!",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9qjGzq3wdleO2T4r7fYXfdG1hYvKVzmrvbaJixQekbUPsJYS6KqUvwp247dVwwBVZCMP0W3puz7nx6R5tHkiV49OnAyvf3odN_yDDhw6Yu_mPoN0fNdvbBFG6B6sarml5tipi1JWepcAVwTnR2opUKyBlTG736hOZyfyD6dRBJPIY-UZGbO56rA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+      "snippet": "AI 创新黑客松 · 2026 北京站,将于 11 月 20 日—22 日举行.从... 扫码报名,准备集结如果你有一个想实现的创意,如果你希望让自...",
+      "content": "AI 创新黑客松 · 2026 北京站,将于 11 月 20 日—22 日举行.从... 扫码报名,准备集结如果你有一个想实现的创意,如果你希望让自...",
+      "published_at": "2026-11-17 21:50:39",
+      "author": "王仕城的随想录",
+      "source": "王仕城的随想录",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 77.0,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近7天发布"
+      ],
+      "raw": {
+        "title": "倒计时3天|北京AI黑客松,11月20日集结!",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF9zv_qurTCz-opiRmyuc-R1qXa8Fplpd9qjGzq3wdleO2T4r7fYXfdG1hYvKVzmrvbaJixQekbUPsJYS6KqUvwp247dVwwBVZCMP0W3puz7nx6R5tHkiV49OnAyvf3odN_yDDhw6Yu_mPoN0fNdvbBFG6B6sarml5tipi1JWepcAVwTnR2opUKyBlTG736hOZyfyD6dRBJPIY-UZGbO56rA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D62A76EAE6B77131574B4652951C414D463B06AFEEE67",
+        "summary": "AI 创新黑客松 · 2026 北京站,将于 11 月 20 日—22 日举行.从... 扫码报名,准备集结如果你有一个想实现的创意,如果你希望让自...",
+        "datetime": "2026-11-17 21:50:39",
+        "date_text": "2026年11月17日",
+        "date_description": "1天前",
+        "source": "王仕城的随想录"
+      }
+    },
+    {
+      "id": "e21b89c85f502209",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "2026 微距黑客松 活动回顾",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9Of_iqwjGly9dwypTmlDMLjrtJJZhCwBMqIgpqdYP9f5UDDQyP1JzJgB0PK9tKC8gKrNyED9rUonFc0ezZl3sE4PWUBGPKvTtwQvuormI52esYnI388PvspkzJ8Ib9jpAjnrdAx_S5ZwltIyBR4lmD8G6d-HsIKnpgii1uEyMCBv0OK9DLfgmPA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "双赛道规则、开发线上报名与现场配对评审系统、对接每一位讲师... ◆来看看选手们精彩的五天:● 2026 微距 AI 黑客松回忆短片02:26...",
+      "content": "双赛道规则、开发线上报名与现场配对评审系统、对接每一位讲师... ◆来看看选手们精彩的五天:● 2026 微距 AI 黑客松回忆短片02:26...",
+      "published_at": "2026-11-16 23:47:23",
+      "author": "微距国际青年论坛",
+      "source": "微距国际青年论坛",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 77.0,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近7天发布"
+      ],
+      "raw": {
+        "title": "2026 微距黑客松 活动回顾",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9Of_iqwjGly9dwypTmlDMLjrtJJZhCwBMqIgpqdYP9f5UDDQyP1JzJgB0PK9tKC8gKrNyED9rUonFc0ezZl3sE4PWUBGPKvTtwQvuormI52esYnI388PvspkzJ8Ib9jpAjnrdAx_S5ZwltIyBR4lmD8G6d-HsIKnpgii1uEyMCBv0OK9DLfgmPA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "双赛道规则、开发线上报名与现场配对评审系统、对接每一位讲师... ◆来看看选手们精彩的五天:● 2026 微距 AI 黑客松回忆短片02:26...",
+        "datetime": "2026-11-16 23:47:23",
+        "date_text": "2026年11月16日",
+        "date_description": "2天前",
+        "source": "微距国际青年论坛"
+      }
+    },
+    {
+      "id": "f5ddf09d71187e50",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "3 天,在海淀用 AI 把想法变成作品:未来造物者 AI 创新黑客松来了",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9O56sFxVR7XeNHea0zhOGZCS9En399rSvPyWlHXveyDyqaM4OgUdYCPWXnDoOeTq6Keq0CuALMHCwJi43OLFfu0-dHPYM8Rbr0VVfadpJc_OINMzLKPs4l2wYs8QFMdxcshpRHsJ6f5P9NgJnpDVUroNRncjoaBVCOR6O2V7CKehhlgeRt7bSzA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "AI 创新黑客松 · 2026.11.20—11.22 北京四季青生命科技园3 天,... 报名时核验年龄,并完成监护人知情同意.Open Track 成人组:...",
+      "content": "AI 创新黑客松 · 2026.11.20—11.22 北京四季青生命科技园3 天,... 报名时核验年龄,并完成监护人知情同意.Open Track 成人组:...",
+      "published_at": "2026-11-09 16:26:01",
+      "author": "青影星球",
+      "source": "青影星球",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 75.0,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "3 天,在海淀用 AI 把想法变成作品:未来造物者 AI 创新黑客松来了",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9O56sFxVR7XeNHea0zhOGZCS9En399rSvPyWlHXveyDyqaM4OgUdYCPWXnDoOeTq6Keq0CuALMHCwJi43OLFfu0-dHPYM8Rbr0VVfadpJc_OINMzLKPs4l2wYs8QFMdxcshpRHsJ6f5P9NgJnpDVUroNRncjoaBVCOR6O2V7CKehhlgeRt7bSzA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "AI 创新黑客松 · 2026.11.20—11.22 北京四季青生命科技园3 天,... 报名时核验年龄,并完成监护人知情同意.Open Track 成人组:...",
+        "datetime": "2026-11-09 16:26:01",
+        "date_text": "2026年11月09日",
+        "date_description": "10天前",
+        "source": "青影星球"
+      }
+    },
+    {
+      "id": "eeca7875070df7e9",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "海南校园AI黑客松来啦~",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9GNJirKCTGOxJW9jphbCITFUCkoUB8TPtFAePp5S_PTfvI6_dWVASRxzunDbnc0m1ufNlada7xNQuy91FHOSDN6LUxBeFNOO9xsl2Z_39_b2cT58WYjm6FWzJtgWEqmwqlD2iulN7PPUbfsmAtCw-v9ZZPrArIYInHNdowz6F_c-54z_tGSZTqA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "YECOOSONG2026.11椰客松校园迷你 AI 黑客松海口经济学院 · ... 06 怎么报名就差这一步LAST /// 你可能想问六个常见问题够.前提...",
+      "content": "YECOOSONG2026.11椰客松校园迷你 AI 黑客松海口经济学院 · ... 06 怎么报名就差这一步LAST /// 你可能想问六个常见问题够.前提...",
+      "published_at": "2026-11-11 15:22:20",
+      "author": "论文写在大地上",
+      "source": "论文写在大地上",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 75.0,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "海南校园AI黑客松来啦~",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9GNJirKCTGOxJW9jphbCITFUCkoUB8TPtFAePp5S_PTfvI6_dWVASRxzunDbnc0m1ufNlada7xNQuy91FHOSDN6LUxBeFNOO9xsl2Z_39_b2cT58WYjm6FWzJtgWEqmwqlD2iulN7PPUbfsmAtCw-v9ZZPrArIYInHNdowz6F_c-54z_tGSZTqA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "YECOOSONG2026.11椰客松校园迷你 AI 黑客松海口经济学院 · ... 06 怎么报名就差这一步LAST /// 你可能想问六个常见问题够.前提...",
+        "datetime": "2026-11-11 15:22:20",
+        "date_text": "2026年11月11日",
+        "date_description": "8天前",
+        "source": "论文写在大地上"
+      }
+    },
+    {
+      "id": "27c113d710e238ad",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "入门黑客松系列95|AI短片*端侧模型*企业智能体",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurFgdxYfc3sAB6opiRmyuc-R1qXa8Fplpd9k_mkOHOyeDu4ySrtkVISsgHp4wez1ydZuE2CBb3TVhkJsTL17PaleFB2-G9V5MhU8-k8wA2y1pCrfdK96Zgqg9pVxV1yNBSPsyV_zmUyikv_LuDhxxIzO2m03O39LZ51NisY0nP31-fRocCB9--XtIwNGsLyQdmII2ZTRo_liQte0WC6Sbi7DA..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D7460BE79BCA7C4C2A364B5B75A74C4B70D366AFEEE6A",
+      "snippet": "报名时别把线上投稿和线下入围混为一谈.黑123详情:https://... 2026 企业智能体黑客松矩阵起源联合汉得信息等举办.可以选报...",
+      "content": "报名时别把线上投稿和线下入围混为一谈.黑123详情:https://... 2026 企业智能体黑客松矩阵起源联合汉得信息等举办.可以选报...",
+      "published_at": "2026-11-07 20:01:14",
+      "author": "书导者",
+      "source": "书导者",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 75.0,
+      "score_reasons": [
+        "相关性命中 4/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "入门黑客松系列95|AI短片*端侧模型*企业智能体",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurFgdxYfc3sAB6opiRmyuc-R1qXa8Fplpd9k_mkOHOyeDu4ySrtkVISsgHp4wez1ydZuE2CBb3TVhkJsTL17PaleFB2-G9V5MhU8-k8wA2y1pCrfdK96Zgqg9pVxV1yNBSPsyV_zmUyikv_LuDhxxIzO2m03O39LZ51NisY0nP31-fRocCB9--XtIwNGsLyQdmII2ZTRo_liQte0WC6Sbi7DA..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D7460BE79BCA7C4C2A364B5B75A74C4B70D366AFEEE6A",
+        "summary": "报名时别把线上投稿和线下入围混为一谈.黑123详情:https://... 2026 企业智能体黑客松矩阵起源联合汉得信息等举办.可以选报...",
+        "datetime": "2026-11-07 20:01:14",
+        "date_text": "2026年11月07日",
+        "date_description": "12天前",
+        "source": "书导者"
+      }
+    },
+    {
+      "id": "50059e7682536c17",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "支付宝 AI 付黑客松赛前实操课,手把手带你接入爱猹收!",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9Wc1aIeLIwfyY8TXU8p2WNleiJtuoSJgZzTuKvwacWAjBMkjdORyVaczMQ0Kf2AONbzpY_Va4bmYVSbN90Ymu3GWkPoFW_UgZX3Zc5dF0T7I02B-Q9_0lPTepUJaMkd__4wNHLbtTzqImX2E6syXJxN9ybsGjav9RTXQelT7W5TdflztgI7RZ1g..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "AI 时代的下一种全新的轻量化收款方式——爱猹收,个人和企业用... 2026 年度黑客松.本次赛事设置了 Vibe Pay、Skill Pay 两大主赛...",
+      "content": "AI 时代的下一种全新的轻量化收款方式——爱猹收,个人和企业用... 2026 年度黑客松.本次赛事设置了 Vibe Pay、Skill Pay 两大主赛...",
+      "published_at": "2026-11-18 20:46:33",
+      "author": "观猹学社",
+      "source": "观猹学社",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 66.5,
+      "score_reasons": [
+        "相关性命中 3/4 个查询词",
+        "引擎可信度 0.80",
+        "近7天发布"
+      ],
+      "raw": {
+        "title": "支付宝 AI 付黑客松赛前实操课,手把手带你接入爱猹收!",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9Wc1aIeLIwfyY8TXU8p2WNleiJtuoSJgZzTuKvwacWAjBMkjdORyVaczMQ0Kf2AONbzpY_Va4bmYVSbN90Ymu3GWkPoFW_UgZX3Zc5dF0T7I02B-Q9_0lPTepUJaMkd__4wNHLbtTzqImX2E6syXJxN9ybsGjav9RTXQelT7W5TdflztgI7RZ1g..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "AI 时代的下一种全新的轻量化收款方式——爱猹收,个人和企业用... 2026 年度黑客松.本次赛事设置了 Vibe Pay、Skill Pay 两大主赛...",
+        "datetime": "2026-11-18 20:46:33",
+        "date_text": "2026年11月18日",
+        "date_description": "23小时前",
+        "source": "观猹学社"
+      }
+    },
+    {
+      "id": "fba3ae5376cbbc2d",
+      "engine": "wechat_article_search",
+      "engines": [
+        "wechat_article_search"
+      ],
+      "engine_group": "wechat",
+      "query": "AI 黑客松 报名 2026",
+      "title": "研途领航|零门槛 AI 黑客松来袭!用 TRAE 把你的创意落地",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9y9iREcgc9cN_qsL41f2ErWgmWwZ07eEt0twfLMJWzyd9seUMH6MD5xTrAOV7X1deATgiXuxuN3vskn778O7lbaGa8vdraucEEOvVDsgMAFT6GdcfTynDFngH16gmD3Gj6h9tshfXFMFKDAvA_B1DjzbKnPDJKKVHXldJOYiWwfI5eBgmN3LoYQ..&type=2&query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+      "snippet": "活动介绍本次AI创变者黑客松旨在为有意开展创新实践但受限于技... 报名及参赛全程不收取任何费用.二、活动组织主办单位:华东交...",
+      "content": "活动介绍本次AI创变者黑客松旨在为有意开展创新实践但受限于技... 报名及参赛全程不收取任何费用.二、活动组织主办单位:华东交...",
+      "published_at": "2026-11-06 14:02:26",
+      "author": "华东交通大学研究生",
+      "source": "华东交通大学研究生",
+      "source_type": "wechat",
+      "metrics": {
+        "read": 0.0,
+        "like": 0.0,
+        "comment": 0.0,
+        "share": 0.0,
+        "interaction": 0.0,
+        "native_score": 0.0
+      },
+      "tags": [],
+      "score": 64.5,
+      "score_reasons": [
+        "相关性命中 3/4 个查询词",
+        "引擎可信度 0.80",
+        "近30天发布"
+      ],
+      "raw": {
+        "title": "研途领航|零门槛 AI 黑客松来袭!用 TRAE 把你的创意落地",
+        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS5jj02A4QurF7vHHHFpZ-5-opiRmyuc-R1qXa8Fplpd9y9iREcgc9cN_qsL41f2ErWgmWwZ07eEt0twfLMJWzyd9seUMH6MD5xTrAOV7X1deATgiXuxuN3vskn778O7lbaGa8vdraucEEOvVDsgMAFT6GdcfTynDFngH16gmD3Gj6h9tshfXFMFKDAvA_B1DjzbKnPDJKKVHXldJOYiWwfI5eBgmN3LoYQ..&amp;type=2&amp;query=AI %E9%BB%91%E5%AE%A2%E6%9D%BE %E6%8A%A5%E5%90%8D 2026&amp;token=9F7D6C879B5E9B81E4E2844494B9E75CE58A100B6AFEEE69",
+        "summary": "活动介绍本次AI创变者黑客松旨在为有意开展创新实践但受限于技... 报名及参赛全程不收取任何费用.二、活动组织主办单位:华东交...",
+        "datetime": "2026-11-06 14:02:26",
+        "date_text": "2026年11月06日",
+        "date_description": "13天前",
+        "source": "华东交通大学研究生"
+      }
+    }
+  ]
+}

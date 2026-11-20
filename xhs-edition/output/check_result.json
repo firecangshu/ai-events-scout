@@ -1,0 +1,147 @@
+{
+  "snap": "2026-11-15",
+  "generated_at": "2026-11-15 12:18:16",
+  "passed": 23,
+  "failed": 0,
+  "total": 23,
+  "items": [
+    {
+      "no": "A01",
+      "name": "标题候选 3 个且每个 <=20 字",
+      "pass": true,
+      "detail": "2026还能报的24个AI赛事(15字) / 24个AI赛事报名进行中(12字) / AI赛事清单：24个报名中(13字)"
+    },
+    {
+      "no": "A02",
+      "name": "正文含话题 <=1000 字",
+      "pass": true,
+      "detail": "正文 243 + 标签 45 = 288 字"
+    },
+    {
+      "no": "A03",
+      "name": "话题标签 3-10 个",
+      "pass": true,
+      "detail": "7 个: #AI赛事 #人工智能比赛 #算法竞赛 #AI黑客松 #大模型 #具身智能 #Kaggle"
+    },
+    {
+      "no": "A04",
+      "name": "图片 1-18 张",
+      "pass": true,
+      "detail": "6 张"
+    },
+    {
+      "no": "A05",
+      "name": "全部图片统一 1080x1440 (3:4)",
+      "pass": true,
+      "detail": "[(1080, 1440)]"
+    },
+    {
+      "no": "A06",
+      "name": "单张图片 <=10MB",
+      "pass": true,
+      "detail": "最大 0.19MB"
+    },
+    {
+      "no": "A07",
+      "name": "无站外链接与导流话术（正文+图片文字）",
+      "pass": true,
+      "detail": "0 命中"
+    },
+    {
+      "no": "A08",
+      "name": "无夸大/极限词",
+      "pass": true,
+      "detail": "0 命中"
+    },
+    {
+      "no": "A09",
+      "name": "AI 生成内容主动标识（正文+封面）",
+      "pass": true,
+      "detail": "正文与封面均含声明"
+    },
+    {
+      "no": "A10",
+      "name": "PNG 与发布文案不含 emoji",
+      "pass": true,
+      "detail": "0 命中"
+    },
+    {
+      "no": "B01",
+      "name": "封面安全区 顶>=150/底<=1240/左>=60/右<=1020",
+      "pass": true,
+      "detail": "top=150 bottom=1240 left=60 right=1020"
+    },
+    {
+      "no": "B02",
+      "name": "封面主标题字号 >=60px",
+      "pass": true,
+      "detail": "66px"
+    },
+    {
+      "no": "B03",
+      "name": "页数与条数匹配（封面+内容页）",
+      "pass": true,
+      "detail": "24 条 / 每页 5 条 / 应有 5 内容页 / 实有 6 张图"
+    },
+    {
+      "no": "C01",
+      "name": "数据中无裸「台湾」表述",
+      "pass": true,
+      "detail": "0 处"
+    },
+    {
+      "no": "C02",
+      "name": "中国台湾地区赛事归入国内",
+      "pass": true,
+      "detail": "0 异常"
+    },
+    {
+      "no": "C03",
+      "name": "资格字段完整回显（未做去括号删减）",
+      "pass": true,
+      "detail": "生成器直接读取完整 eligibility"
+    },
+    {
+      "no": "C04",
+      "name": "序号连续（每页承接上一页）",
+      "pass": true,
+      "detail": "draw_content 使用 start_no + i"
+    },
+    {
+      "no": "C05",
+      "name": "每条均有报名/提交截止字段",
+      "pass": true,
+      "detail": "24 条齐全"
+    },
+    {
+      "no": "D01",
+      "name": "空数据不崩溃",
+      "pass": true,
+      "detail": "无异常"
+    },
+    {
+      "no": "D02",
+      "name": "缺 name 字段不崩溃",
+      "pass": true,
+      "detail": "无异常"
+    },
+    {
+      "no": "D03",
+      "name": "两位数序号居中不崩溃",
+      "pass": true,
+      "detail": "无异常"
+    },
+    {
+      "no": "D04",
+      "name": "空数据仍产出文案",
+      "pass": true,
+      "detail": "无异常"
+    },
+    {
+      "no": "D05",
+      "name": "today 与 snap 同步（不使用旧 today 基准）",
+      "pass": true,
+      "detail": "数据 today 与 snap 不一致时按 snap 并提示"
+    }
+  ]
+}

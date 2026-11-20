@@ -1,0 +1,479 @@
+{
+  "snap": "2026-11-14",
+  "title_date": "2026-11-14",
+  "today": "2026-11-14",
+  "identity": "C（所有人/最广口径：含社会组可报与纯学生限定）",
+  "events": [
+    {
+      "name": "中国电科“网信杯”人工智能创新大赛",
+      "tags": "智能体/大模型/多模态",
+      "scope": "国内",
+      "form": "混合（报名初赛线上·复赛线下）",
+      "eligibility": "企业·团队可报（需依托国内法人单位）",
+      "deadline": "2026-11-15（报名截止）",
+      "link": "https://wangxinbei.taiji.com.cn/",
+      "note": "中国电科主办，六大赛道十项赛题（含智能体应用5道），奖金最高30万；需依托军地高校/科研院所/企事业单位/社会团体报名，不接受个人",
+      "chip": "报名将截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华南",
+        "珠三角"
+      ]
+    },
+    {
+      "name": "中国创新创业大赛·人工智能创新应用专业赛",
+      "tags": "AI创新应用/企业赛",
+      "scope": "国内",
+      "form": "混合（报名线上·决赛线下）",
+      "eligibility": "企业·团队可报（设企业组/高校组）",
+      "deadline": "2026-11-15（报名截止）",
+      "link": "http://rgzn.cxcyds.com",
+      "note": "工信部火炬中心主办，第十五届中国创新创业大赛 AI 创新应用专业赛",
+      "chip": "报名将截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华北"
+      ]
+    },
+    {
+      "name": "Madinah Ethical AI Competition（麦地那伦理AI）",
+      "tags": "伦理AI/智慧城市/预测",
+      "scope": "国外",
+      "form": "混合（远程初赛·麦地那线下决赛3天）",
+      "eligibility": "所有人可报（全球开发者/研究者/初创）",
+      "deadline": "2026-11-15（报名/组队截止，UTC+3）",
+      "link": "https://www.kaggle.com/competitions/MDA-Ethical-AI-KAUST-Academy",
+      "note": "沙特 MDA+KAUST Academy 主办，真实 CCTV 人群预测，8 队晋级麦地那线下，奖池 SAR150,000",
+      "chip": "报名将截止",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "群核 Aholo 3D AI 黑客松",
+      "tags": "3D/AIGC/具身",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "所有人可报",
+      "deadline": "2026-11-19 19:00（提交截止，北京时间）",
+      "link": "https://www.aholo3d.cn/hackathon",
+      "note": "群核科技 Aholo 主办，3D 生成 AI 黑客松，奖金池 ¥32 万，全程线上提交",
+      "chip": "本周截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华南",
+        "珠三角",
+        "大湾区"
+      ]
+    },
+    {
+      "name": "CrossPointX 2026 校际黑客松",
+      "tags": "校际/产品原型/苏州",
+      "scope": "国内",
+      "form": "混合（线上+线下）",
+      "eligibility": "纯学生限定（苏州大学/西交利物浦/昆山杜克在校生）",
+      "deadline": "2026-11-21（报名截止，11月21-22日比赛）",
+      "link": "https://cpx2026.devpost.com/",
+      "note": "西交利物浦×昆山杜克×苏大联合主办，约300名学生、必须4人组队、鼓励跨校跨专业，聚焦真实需求与产品原型",
+      "chip": "本周截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华东",
+        "长三角"
+      ]
+    },
+    {
+      "name": "荣耀·英特尔 AI 智造创新赛",
+      "tags": "端侧AI/智能体/13.5万",
+      "scope": "国内",
+      "form": "混合（线上+线下）",
+      "eligibility": "纯学生限定（全国高校在校生）",
+      "deadline": "2026-11-22（报名截止）",
+      "link": "https://www.honor.com/cn/ai-smart-innovation-challenge/",
+      "note": "荣耀与英特尔主办，YOYO Claw 端侧智能体开发赛道，总奖金 ¥13.5万",
+      "chip": "本周截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华南",
+        "珠三角",
+        "大湾区"
+      ]
+    },
+    {
+      "name": "臺大×華南 金融科技黑客松",
+      "tags": "金融科技/Agent/台北",
+      "scope": "国内",
+      "form": "混合（12/1起线上开发·12/4臺大现场Demo评审）",
+      "eligibility": "纯学生限定（臺大一般生，不含在職生）",
+      "deadline": "2026-11-23（报名截止，报名期11/2起）",
+      "link": "https://luma.com/hccyc199",
+      "note": "臺大創創學程×華南銀行，三赛道（AI Banking Agents/Trust & Safety/Open Finance），总奖金 NT$180,000，每队至少1人须到场",
+      "chip": "本周截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华东",
+        "中国台湾"
+      ]
+    },
+    {
+      "name": "2026华为开发者大赛·智能体创新赛",
+      "tags": "智能体/五赛区/38.5万",
+      "scope": "国内",
+      "form": "混合（报名提交线上·区域赛答辩线上·12月总决赛线下）",
+      "eligibility": "所有人可报（企业组/OPC组/高校组三选一；须实名认证）",
+      "deadline": "2026-11-24（报名、组队与作品提交同时截止，23:59北京时间）",
+      "link": "https://developer.huaweicloud.com/competition/information/1300000372",
+      "note": "华为云主办，须用华为云码道 CodeArts 代码智能体开发并提交使用痕迹（评分占25%）；分北部/南部/中部/西南/西北五赛区，总奖金 ¥38.5万",
+      "chip": "报名将截止",
+      "verified": "OK(200)",
+      "regions": [
+        "华北",
+        "华南",
+        "华东",
+        "华中",
+        "西南",
+        "东北"
+      ]
+    },
+    {
+      "name": "Kaggle Gemma 4 Developer Agent Competition",
+      "tags": "Agent/coding/Google",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "所有人可报（18+）",
+      "deadline": "2026-11-25（报名/组队截止，UTC）",
+      "link": "https://www.kaggle.com/c/gemma-4-developer-agent",
+      "note": "Google DeepMind 主办，将 Gemma4 训练为离线 coding agent，奖池 $75,000",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "高校大学生智能创新与计算机技能应用挑战赛·AI芯智能赛道",
+      "tags": "AI通识/答题赛/中电企协",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "纯学生限定（高校本专科及研究生；其他人员需年满18周岁）",
+      "deadline": "2026-11-27（报名截止；第一场考试11/28-11/29）",
+      "link": "https://m.saikr.com/vse/AI2026ZNCX",
+      "note": "中国电子企业协会主办，50道客观题（单选/多选/判断）在线答题，考AI基础通识、大模型与生成式AI、AI伦理安全合规，证书由双单位盖章",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "全国"
+      ]
+    },
+    {
+      "name": "Global AI Builder's Challenge",
+      "tags": "AI应用/Agent/全球学生",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）",
+      "deadline": "2026-11-28（提交截止）",
+      "link": "https://global-ai-builders-challenge.devpost.com/",
+      "note": "Refactor The World 主办，11/21-11/28 一周制全球学生线上赛，设总榜Top10与21个分类奖，提交需GitHub仓库+2-4分钟演示视频",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "2026 6G/B6G 无线通信 AI 大赛（DataFountain）",
+      "tags": "6G/通信AI/MIMO",
+      "scope": "不限",
+      "form": "线上",
+      "eligibility": "所有人可报（面向全球）",
+      "deadline": "2026-11-29（第二阶段结束/报名参赛）",
+      "link": "https://www.datafountain.cn/competitions/1176",
+      "note": "IMT-2030(6G)推进组+OPPO 主办，MU-MIMO 端到端传输系统设计，奖池 ¥300,000",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "全国"
+      ]
+    },
+    {
+      "name": "AI造物·AI造药专项赛",
+      "tags": "AI4Science/制药/科研",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "社会组可报（AI造物系列面向全社会）",
+      "deadline": "2026-11-30（报名及第一轮序列提交截止）",
+      "link": "https://aisci.ustc.edu.cn/zaoyao/#/",
+      "note": "中科大科学智能物质创制中心承办，AI造药专项，安徽 AI 赛事品牌之一",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华东"
+      ]
+    },
+    {
+      "name": "三好AI创新应用竞赛（中国台湾·社会组）",
+      "tags": "AI应用/社会组",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "社会组可报（设社会组）",
+      "deadline": "2026-11-30（报名及作品上传截止）",
+      "link": "https://3goodai.fgu.edu.tw/",
+      "note": "中国台湾佛光大学主办，设社会组欢迎社会人士/企业，总奖金 NT$46 万，线上提交",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华南",
+        "中国台湾"
+      ]
+    },
+    {
+      "name": "2026 Qoder 高校创造力大赛",
+      "tags": "AI编程/应用开发/8.85万",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "纯学生限定（全国在校大学生含港澳台本硕博；在职人员与高中生不可报）",
+      "deadline": "2026-11-30（报名、组队与作品发布同时截止，18:00）",
+      "link": "https://tianchi.aliyun.com/competition/entrance/532536",
+      "note": "阿里云 Qoder×天池主办，用 Qoder 做能公开访问的完整应用并部署到 Qoder Sites，三赛道（StudyHack/LifeHack/Hack4Good），总奖金 ¥88,500；须完成天池实名与阿里云学生认证",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华东",
+        "长三角"
+      ]
+    },
+    {
+      "name": "SpectoV National Hackathon 2026",
+      "tags": "AI/App/Web/印度学生赛",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（印度在校学生；个人报名）",
+      "deadline": "2026-11-30（报名截止，名额250人先到先得）",
+      "link": "https://snh.hiringspectov.com/",
+      "note": "SpectoV 主办，微软/AMD 赞助，三赛道（AI/App开发/Web开发），奖金 ₹5.5万+ 现金与6个月带薪实习机会，报名费 ₹149",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "支付宝 PAYATHON 2026（AI 付年度黑客松）",
+      "tags": "AI付/商业化/智能体",
+      "scope": "国内",
+      "form": "混合（线上初赛·线下决赛路演12.26）",
+      "eligibility": "所有人可报（个人或2-5人团队）",
+      "deadline": "2026-12-01（报名截止，作品提交12.09）",
+      "link": "https://aipay.alipay.com/community/events/payathon-2026",
+      "note": "支付宝 AI 付主办，五大赛道（Vibe/Skill/Machine/Token/Agent Pay），奖池 ¥200,000",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华东",
+        "长三角",
+        "大湾区"
+      ]
+    },
+    {
+      "name": "AWS MSP AI Hackathon",
+      "tags": "AWS/Agent/云",
+      "scope": "不限",
+      "form": "线上",
+      "eligibility": "企业·团队可报（限 AWS Partner Network MSP）",
+      "deadline": "2026-12-11（提交截止，EST/UTC）",
+      "link": "https://aws-agentic-msp.devpost.com",
+      "note": "AWS 主办，Build the AI-First MSP，奖池 $64,000，限 APN 合作伙伴（MSP）",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "不限"
+      ]
+    },
+    {
+      "name": "GenHacks",
+      "tags": "Agent/IoT/全球学生",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "纯学生限定（13岁以上在校学生，企业与专业机构不可参赛）",
+      "deadline": "2026-12-26（提交截止，12/26 00:00 EST）",
+      "link": "https://genhacks-open.devpost.com/",
+      "note": "Devpost 线上学生黑客松，11/1起开放、四赛道（医疗健康环保/机器人IoT/AI与智能体安全/Open），奖金 CAD 1,050 现金，支持个人或任意规模团队",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "2026年全国大学生人工智能应用实践大赛（腾讯 WorkBuddy 创作挑战赛）",
+      "tags": "AIGC创作/无需写代码/证书",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "所有人可报（在校大学生为主；各界人士须年满18周岁）",
+      "deadline": "2026-12-27（报名截止；第二场作品提交11/29、第三场12/27）",
+      "link": "https://m.saikr.com/AIPC26",
+      "note": "四川汇鑫创融主办，指定用腾讯云 WorkBuddy 创作，不写代码、导出HTML源文件提交，三场独立评奖，提交有效作品即得优秀奖与证书",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "全国"
+      ]
+    },
+    {
+      "name": "OpenLET 具身智能挑战赛（天池532515）",
+      "tags": "具身智能/机器人/工业",
+      "scope": "国内",
+      "form": "混合（仿真线上·真机线下）",
+      "eligibility": "所有人可报（面向全社会）",
+      "deadline": "2026-12-31（冬季赛报名持续开放）",
+      "link": "https://tianchi.aliyun.com/competition/entrance/532515",
+      "note": "开放原子开源基金会 OpenLET 主办，工业真实任务，奖池 ¥500,000，赛季制持续报名",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华北"
+      ]
+    },
+    {
+      "name": "知乎知学堂大模型挑战赛·复杂表格识别（天池532510）",
+      "tags": "大模型/表格识别/文档",
+      "scope": "国内",
+      "form": "线上",
+      "eligibility": "所有人可报（需实名；须用通义千问+阿里云算力）",
+      "deadline": "2026-12-31（赛季2结束）",
+      "link": "https://tianchi.aliyun.com/competition/entrance/532510",
+      "note": "知乎知学堂主办，复杂表格识别与内容理解，奖池 ¥20,000，长期赛季制",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "华东",
+        "长三角"
+      ]
+    },
+    {
+      "name": "Create AI Agents Championship（迪拜）",
+      "tags": "AI Agent/全球/创业",
+      "scope": "国外",
+      "form": "线上（远程提交原型+路演视频）",
+      "eligibility": "所有人可报（全球个人/团队，无最低年龄；青年组<21）",
+      "deadline": "2026-12-31（报名12月截止，无精确日，以官网为准）",
+      "link": "https://www.dubaichamberdigital.com/en/create-ai-agents",
+      "note": "迪拜数字经济商会主办，四类别（社会/个人/商业/青年），总奖金 AED2.5M+，注册10.7起",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    },
+    {
+      "name": "Kaggle Agent Harness on Physical-Engineering's Last Exam",
+      "tags": "Agent/工程/Google",
+      "scope": "国外",
+      "form": "线上",
+      "eligibility": "所有人可报（18+，全球）",
+      "deadline": "2027-01-06（报名/提交截止，UTC）",
+      "link": "https://www.kaggle.com/c/physical-engineerings-last-exam",
+      "note": "Google 主办，构建自主 agent harness 解真实结构/土木/电气/机械工程任务，奖池 $400,000",
+      "chip": "",
+      "verified": "OK(200)",
+      "regions": [
+        "国外"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "name": "PayPal AI Hackathon（Devpost）",
+      "reason": "报名/提交11/12已截止→剔除（今日11/14已过）"
+    },
+    {
+      "name": "蚂蚁灵波具身大模型挑战赛（天池532514）",
+      "reason": "线上初赛报名及作品提交10/26截止、初赛已落幕→剔除"
+    },
+    {
+      "name": "Google Cloud AI Builder Cup 2026",
+      "reason": "报名/提交10/4已截止→剔除"
+    },
+    {
+      "name": "Liner.EXE-THON",
+      "reason": "11/11过期→剔除"
+    },
+    {
+      "name": "腾讯视频火龙AIGC",
+      "reason": "纯视频内容类→剔除"
+    },
+    {
+      "name": "珠海OPC",
+      "reason": "仅邮箱报名无网页入口→剔除"
+    },
+    {
+      "name": "海门謇公湖杯",
+      "reason": "10/25过期→剔除"
+    },
+    {
+      "name": "Since AI",
+      "reason": "11/8过期→剔除"
+    },
+    {
+      "name": "讯飞AI开发者大赛赛季",
+      "reason": "赛季已结束→剔除"
+    },
+    {
+      "name": "全国AI应用创新大赛",
+      "reason": "11/10过期→剔除"
+    },
+    {
+      "name": "2026全国通用人工智能创新应用大赛（CCF）",
+      "reason": "报名11/10已截止→剔除"
+    },
+    {
+      "name": "怀客松/JUNCTION",
+      "reason": "已过期→剔除"
+    },
+    {
+      "name": "鲸锐AIGC视频",
+      "reason": "纯视频内容类→剔除"
+    },
+    {
+      "name": "上地UPSIDE",
+      "reason": "路演已落幕→剔除"
+    },
+    {
+      "name": "中国创新创业大赛·工业智能体专业赛（gyznt）",
+      "reason": "初赛11月初、报名应已截止且决赛线下北京→剔除（保留同系列AI创新应用专业赛 rgzn 11/15）"
+    },
+    {
+      "name": "The Rise of AI Agents Hackathon（迪拜）",
+      "reason": "已截止11/2→剔除"
+    },
+    {
+      "name": "华为昇腾AI创新大赛S9",
+      "reason": "赛季已截止→剔除"
+    },
+    {
+      "name": "外滩AICoding大赛",
+      "reason": "报名7/8已截止→剔除"
+    },
+    {
+      "name": "中国创新创业大赛·智联智造专业赛（zlzz）",
+      "reason": "报名截止10/7→剔除"
+    },
+    {
+      "name": "2026 NextWave AI法創黑客松",
+      "reason": "报名入口为 Google 表单，本机网络不可达、探活非200→按「网页入口可访问」口径剔除"
+    },
+    {
+      "name": "重庆大学AI开学季·校园智能体创新挑战赛（腾讯云黑客松）",
+      "reason": "官方页显示「比赛休息」，无法确认报名进行中→剔除"
+    },
+    {
+      "name": "HackGlobal 2026（Vultr 全球学生AI黑客松）",
+      "reason": "11/13-11/15 进行中，报名窗口已过→剔除"
+    },
+    {
+      "name": "Remote Control AI（Devpost）",
+      "reason": "提交11/5已截止→剔除"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# ===== 隐私 / 个人身份（绝不外传）=====
+_archive/
+.atomcode/
+
+# ===== 平台运营痕迹（账号ID / 会话 / 凭证 / 审核回执）=====
+minitool/session.json
+minitool/preview.json
+minitool/submit.json
+minitool/preview-qr*.png
+*.session.json
+
+# ===== 发布包（含内部清单，可从源码重建）=====
+_skillhub_release/
+
+# ===== WorkBuddy 内部记忆与配置 =====
+.workbuddy/
+
+# ===== 常见凭证/环境文件 =====
+.env
+.env.*
+credentials*.json
+*_secret*
+*.pem
+*.key
+
+# ===== 系统/编辑器缓存 =====
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# ===== 大体积归档压缩包 =====
+*.zip

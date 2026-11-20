@@ -1,0 +1,39 @@
+{
+  "snap": "2026-10-18",
+  "title_date": "2026-10-18",
+  "today": "2026-10-18",
+  "events": [
+    {
+      "name": "示例赛事A（填写真实名称）",
+      "tags": "黑客松/智能体",
+      "scope": "不限",
+      "form": "线上",
+      "eligibility": "所有人可报",
+      "perks": "未标注",
+      "deadline": "2026-10-20（报名截止）",
+      "link": "https://example.com/signup",
+      "note": "一句话备注：主办/奖金/对象等要点",
+      "chip": "报名将截止",
+      "verified": "OK(200)"
+    },
+    {
+      "name": "示例赛事B（填写真实名称）",
+      "tags": "创新创业/北京",
+      "scope": "国内",
+      "form": "线下",
+      "eligibility": "社会组可报",
+      "perks": "包路费",
+      "deadline": "2026-10-22（征集截止）",
+      "link": "https://example.com/apply",
+      "note": "线下需到北京，主办报销往返火车票（住宿自理）",
+      "chip": "",
+      "verified": "OK(200)"
+    }
+  ],
+  "dropped": [
+    {
+      "name": "被剔除的赛事X",
+      "reason": "初赛报名已截止→剔除 / 纯学生限定→剔除 / 仅邮箱报名无网页入口→剔除 / 纯视频内容类→剔除"
+    }
+  ]
+}
